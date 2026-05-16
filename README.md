@@ -3,8 +3,8 @@
 A TypeScript-for-the-web port of [Tiled](https://github.com/mapeditor/tiled), the
 general-purpose tile map editor by Thorbjørn Lindeijer and contributors.
 
-Status: **in progress**. Upstream Qt/C++ is mirrored under `reference/`
-(git-ignored) and is being ported file-by-file.
+Status: **end-to-end runnable**. 12 workspaces, 202 vitest cases, all green.
+Upstream Qt/C++ is mirrored under `reference/` (git-ignored).
 
 ## Phase progress
 
@@ -21,13 +21,14 @@ Status: **in progress**. Upstream Qt/C++ is mirrored under `reference/`
 | 7 — Editor UI shell (React)                         | ✅ done  | 15 tests; React + Vite + Zustand store, Toolbar (new/open/save/undo/redo TMJ), MapTabs, ToolPalette, StatusBar, MapCanvas (PixiJS host + DOM-pointer→Tool bridge), LayerDock (visibility/lock/opacity/rename/reorder/remove via commands), TilesetDock (tile picker → TileStamp), UndoDock (clickable history), PropertiesDock, MinimapDock. `pnpm --filter @tiled-ts/editor dev` starts the app. |
 | 7b — Property editor + custom types                 | ✅ done  | 17 tests; core `setPropertyMemberValue`/`getPropertyMemberValue` for nested paths, `SetPropertyMember` command (merging), React `PropertyValueInput` switching on `value.kind` (string/int/float/bool/color+alpha/file/object/class-recursive/enum dropdown or flag-checkboxes), `PropertyEditor` (rename/remove/+add with builtin + user types), `ObjectTypesEditor` modal (class & enum CRUD, member management, storage/flags toggles) wired into Toolbar |
 | 7c — Tile animation + collision editors             | ✅ done  | 12 tests; commands `ChangeTileAnimation`, `ChangeTileProbability` (merging), `ChangeTileType`, `ChangeTileObjectGroup` (clone-on-apply); React `TileAnimationEditor` (frame list + live `requestAnimationFrame` preview) and `TileCollisionEditor` (SVG canvas with overlay shapes; rect/ellipse/point creators with x/y/w/h fields), launched from per-tile buttons in TilesetDock |
-| 8 — Automapping engine                              | ⏳ pending |  |
-| 9 — Plugin/exporter ports (csv/lua/defold/...)      | ⏳ pending |  |
-| 10 — `tmxrasterizer` CLI + viewer                   | ⏳ pending |  |
-| 11 — Sandboxed scripting API                        | ⏳ pending |  |
+| 8 — Automapping engine                              | ✅ done  | 8 tests; `AutoMapper.fromRulesMap` parses `input*` / `inputnot*` / `output*` layer naming with `_setName` grouping, derives 4-connected rule regions, weighted multi-variation outputs (injectable RNG); `AutoMapResult` feeds into `PaintTileLayer`; `AutoMappingManager` runs ordered rule sets |
+| 9 — Plugin/exporter ports (csv/lua/defold/...)      | ✅ done  | 17 tests; `FileFormat` registry; **round-trip**: CSV (tileset-aware reader, flip-flag bits), Lua (hand-written Lua-table parser); **write-only**: JSON1 (legacy flat-layer schema), Defold `.tilemap`, GameMaker Studio 1.x GMX XML, GameMaker Studio 2 YY JSON, human-readable TXT |
+| 10 — `tmxrasterizer` CLI + viewer                   | ✅ done  | 9 tests; **`apps/cli`** Node bin `tiled-ts rasterize` reads TMJ via `@tiled-ts/format`, composes orthogonal layers with `OrthogonalRendererMath`, applies all flip flags, emits PNG via `@napi-rs/canvas` (`-o`, `-s/--scale`, `--bg`, `--help`); **`apps/viewer`** Vite SPA file-input → `MapView` with wheel-zoom and drag-to-pan |
+| 11 — Sandboxed scripting API                        | ✅ done  | 12 tests; `ScriptHost` runs user JS in a `new Function` sandbox with shadowed Node globals; `tiled` namespace (`version`, `activeAsset`, `open`, `alert`/`warn`/`error`/`log`, `registerAction`/`registerTool`/`registerMapFormat`); full `Editable*` wrapper set (Map, Layer + Tile/Object/Image/Group subtypes, Tileset, Tile, MapObject) that mutates via undo commands when a doc is active |
 
-Run `pnpm test` to execute the 156-test suite, or `pnpm build` to compile all
-packages. `pnpm dev` boots the editor at <http://localhost:5173>.
+Run `pnpm test` to execute the 202-test suite, or `pnpm build` to compile all
+packages. `pnpm dev` boots the editor at <http://localhost:5173>; the
+stand-alone viewer is on `:5174`; the CLI is `pnpm --filter @tiled-ts/cli build && node apps/cli/dist/bin.js rasterize map.tmj -o out.png`.
 
 ## Packages
 

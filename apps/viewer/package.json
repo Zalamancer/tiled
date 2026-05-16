@@ -1,0 +1,32 @@
+{
+  "name": "@tiled-ts/viewer",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Stand-alone TMX/TMJ viewer for tiled-ts maps.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@tiled-ts/core": "workspace:*",
+    "@tiled-ts/format": "workspace:*",
+    "@tiled-ts/render-pixi": "workspace:*",
+    "pixi.js": "^8.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.1.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "happy-dom": "^15.11.7",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.5"
+  }
+}
