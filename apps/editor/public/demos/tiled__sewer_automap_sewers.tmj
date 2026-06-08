@@ -1,0 +1,60 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.10.0",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 31,
+  "height": 31,
+  "tilewidth": 24,
+  "tileheight": 24,
+  "infinite": false,
+  "nextlayerid": 1,
+  "nextobjectid": 1,
+  "compressionlevel": -1,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "rules_sewers",
+      "tilewidth": 24,
+      "tileheight": 24,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 0,
+      "columns": 0,
+      "image": "./demos/tiled__sewer_automap_sewers_rules_sewers_rules_sewers.png",
+      "imagewidth": 72,
+      "imageheight": 48
+    },
+    {
+      "firstgid": 2,
+      "name": "sewer_tileset",
+      "tilewidth": 24,
+      "tileheight": 24,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 0,
+      "columns": 0,
+      "image": "./demos/tiled__sewer_automap_sewers_sewer_tileset_.._sewer_tileset.png",
+      "imagewidth": 192,
+      "imageheight": 217,
+      "transparentcolor": "#ff00ff"
+    }
+  ],
+  "layers": [
+    {
+      "type": "tilelayer",
+      "id": 0,
+      "name": "set",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 31,
+      "height": 31,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJztlUEOwCAIBLH+/8/eDSBQ1jTNHuZiDKOGxSEigxDyCWYRtPsx6HBH74hyn2r9zT2T7uj+jPemW+sfrRai16K1ut1ebtEZ8+aFdxaU27qj5a7O1FOfRd1v86XlZc+T9RZVt3aG6FrX/0UIIVkWa5oFDA=="
+    }
+  ]
+}

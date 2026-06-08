@@ -39,6 +39,7 @@ export function MapCanvas({ imageLoader = defaultLoader }: MapCanvasProps): JSX.
   const doc = useActiveDoc();
   const tool = useEditor((s) => s.activeTool);
   const invalidate = useEditor((s) => s.invalidate);
+  const version = useEditor((s) => s.version);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const viewRef = useRef<MapView | null>(null);
   const toolRef = useRef<Tool | null>(null);
@@ -53,13 +54,21 @@ export function MapCanvas({ imageLoader = defaultLoader }: MapCanvasProps): JSX.
       // Resize to fit.
       const bbox = containerRef.current!.getBoundingClientRect();
       view.app.renderer.resize(bbox.width, bbox.height);
-      view.setViewport(0, 0, bbox.width, bbox.height);
+      const mapWidth = doc.map.width * doc.map.tileWidth;
+      const mapHeight = doc.map.height * doc.map.tileHeight;
+      const viewportX = mapWidth < bbox.width ? (mapWidth - bbox.width) / 2 : 0;
+      const viewportY = mapHeight < bbox.height ? (mapHeight - bbox.height) / 2 : 0;
+      view.setViewport(viewportX, viewportY, bbox.width, bbox.height);
     });
     return () => {
       view.destroy();
       viewRef.current = null;
     };
   }, [doc, imageLoader]);
+
+  useEffect(() => {
+    viewRef.current?.refresh();
+  }, [version]);
 
   // Forward DOM pointer events into the active Tool.
   useEffect(() => {

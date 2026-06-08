@@ -74,18 +74,18 @@ describe('tileTransformFor — 8 flip combinations', () => {
     expect(t.scaleY).toBe(1);
   });
 
-  it('non-square cell adds halfDiff compensation when D is set', () => {
+  it('non-square tile adds halfDiff compensation when D is set', () => {
     const cell = withFlags(false, false, true);
     const t = tileTransformFor(cell, { width: 32, height: 64 });
-    // halfDiff = (64 - 32) / 2 = 16
+    // Bottom-left-anchored centre = (+w/2, -h/2). halfDiff = (h-w)/2 = 16.
     expect(t.centerX).toBe(32 / 2 + 16);
-    expect(t.centerY).toBe(64 / 2 + 16);
+    expect(t.centerY).toBe(-64 / 2 + 16);
   });
 
-  it('non-square cell without D uses plain centre', () => {
+  it('non-square tile without D uses bottom-left centre offset', () => {
     const cell = withFlags(true, false, false);
     const t = tileTransformFor(cell, { width: 32, height: 64 });
     expect(t.centerX).toBe(16);
-    expect(t.centerY).toBe(32);
+    expect(t.centerY).toBe(-32);
   });
 });

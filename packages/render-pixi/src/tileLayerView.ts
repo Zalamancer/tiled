@@ -30,14 +30,18 @@ export class TileLayerView extends Container {
   ) {
     super();
     this.label = `TileLayerView(${layer.name})`;
-    this.alpha = layer.opacity;
-    this.visible = layer.visible;
+    this.syncLayerState();
+  }
+
+  syncLayerState(): void {
+    this.alpha = this.layer.opacity;
+    this.visible = this.layer.visible;
     this.position.set(
-      layer.x * map.tileWidth + layer.offset.x,
-      layer.y * map.tileHeight + layer.offset.y,
+      this.layer.x * this.map.tileWidth + this.layer.offset.x,
+      this.layer.y * this.map.tileHeight + this.layer.offset.y,
     );
-    this.blendMode = blendModeToPixi(layer.blendMode);
-    this.tint = layer.effectiveTintColor() as ColorSource;
+    this.blendMode = blendModeToPixi(this.layer.blendMode);
+    this.tint = this.layer.effectiveTintColor() as ColorSource;
   }
 
   /** Re-issue draw commands for an updated viewport. Idempotent. */
@@ -95,8 +99,15 @@ export class TileLayerView extends Container {
 
     const tw = this.map.tileWidth;
     const th = this.map.tileHeight;
-    const transform = tileTransformFor(cell, { width: tw, height: th });
-    sprite.position.set(x * tw + transform.centerX, y * th + transform.centerY);
+    // Tile rendering uses the tile's NATURAL pixel size, not the cell size:
+    // image-based tilesets supply tileset.tileWidth/Height; image-collection
+    // tilesets supply per-tile imageRect dimensions. The anchor sits at the
+    // cell's bottom-left so larger sprites stretch upward and to the right
+    // (matching Tiled's `Origin::BottomLeft`).
+    const naturalW = tile.width || cell.tileset.tileWidth || tw;
+    const naturalH = tile.height || cell.tileset.tileHeight || th;
+    const transform = tileTransformFor(cell, { width: naturalW, height: naturalH });
+    sprite.position.set(x * tw + transform.centerX, (y + 1) * th + transform.centerY);
     sprite.rotation = transform.rotation;
     sprite.scale.set(transform.scaleX, transform.scaleY);
   }

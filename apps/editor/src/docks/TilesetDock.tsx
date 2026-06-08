@@ -41,8 +41,8 @@ export function TilesetDock(): JSX.Element {
         {tilesets.length === 0 && (
           <div style={{ color: 'var(--text-1)' }}>This map has no tilesets.</div>
         )}
-        {tilesets.map((ts) => (
-          <details key={ts.name} open={ts === selectedTileset}>
+        {tilesets.map((ts, index) => (
+          <details key={`${ts.name}:${index}`} open={ts === selectedTileset}>
             <summary style={{ cursor: 'pointer', padding: '4px 0' }}>{ts.name}</summary>
             <div style={{ display: 'grid', gridTemplateColumns: `repeat(${Math.max(1, ts.columnCount || 8)}, 32px)` }}>
               {ts.tiles.map((tile) => (

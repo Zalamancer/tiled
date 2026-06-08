@@ -1,0 +1,111 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.10.0",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 4,
+  "height": 3,
+  "tilewidth": 24,
+  "tileheight": 24,
+  "infinite": false,
+  "nextlayerid": 1,
+  "nextobjectid": 1,
+  "compressionlevel": -1,
+  "properties": [
+    {
+      "name": "NoOverlappingRules",
+      "type": "string",
+      "value": "1"
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "sewer_tileset",
+      "tilewidth": 24,
+      "tileheight": 24,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 0,
+      "columns": 0,
+      "image": "./demos/sewer_tileset_.._sewer_tileset.png",
+      "imagewidth": 192,
+      "imageheight": 217,
+      "transparentcolor": "#ff00ff"
+    },
+    {
+      "firstgid": 2,
+      "name": "rules_sewers",
+      "tilewidth": 24,
+      "tileheight": 24,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 0,
+      "columns": 0,
+      "image": "./demos/rules_sewers_rules_sewers.png",
+      "imagewidth": 72,
+      "imageheight": 48
+    }
+  ],
+  "layers": [
+    {
+      "type": "tilelayer",
+      "id": 0,
+      "name": "regions",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 4,
+      "height": 3,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYMAErFCMDQAAATQACw=="
+    },
+    {
+      "type": "tilelayer",
+      "id": 0,
+      "name": "input_Ground",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 4,
+      "height": 3,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYMAESkCshUUcBAAH2ABN"
+    },
+    {
+      "type": "objectgroup",
+      "id": 0,
+      "name": "output_GroundEffects",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 0,
+          "name": "2",
+          "type": "Trigger",
+          "x": 48,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "triggering",
+              "type": "string",
+              "value": "trigger42"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

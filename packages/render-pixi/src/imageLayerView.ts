@@ -16,11 +16,15 @@ export class ImageLayerView extends Container {
   ) {
     super();
     this.label = `ImageLayerView(${layer.name})`;
-    this.alpha = layer.opacity;
-    this.visible = layer.visible;
+    this.syncLayerState();
+  }
+
+  syncLayerState(): void {
+    this.alpha = this.layer.opacity;
+    this.visible = this.layer.visible;
     this.position.set(
-      layer.x * map.tileWidth + layer.offset.x,
-      layer.y * map.tileHeight + layer.offset.y,
+      this.layer.x * this.map.tileWidth + this.layer.offset.x,
+      this.layer.y * this.map.tileHeight + this.layer.offset.y,
     );
   }
 

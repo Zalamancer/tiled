@@ -32,7 +32,7 @@ export class MapView {
   readonly textures: TextureCache;
   readonly animations: TileAnimationDriver;
 
-  private layerViews: Container[] = [];
+  private layerViews: Array<{ layer: Layer; view: Container }> = [];
   private viewport = { x: 0, y: 0, width: 0, height: 0 };
   private cameraScale = 1;
   private bound = false;
@@ -69,12 +69,13 @@ export class MapView {
 
     if (this.opts.autoStartAnimations !== false) this.animations.start();
     this.bound = true;
-    this.refreshAll();
+    this.refresh();
   }
 
   /** Replace the current viewport rect (map-pixel coordinates). */
   setViewport(x: number, y: number, width: number, height: number): void {
     this.viewport = { x, y, width, height };
+    this.applyCameraTransform();
     this.refreshAll();
   }
 
@@ -88,6 +89,7 @@ export class MapView {
   setScale(scale: number): void {
     this.cameraScale = scale;
     this.world.scale.set(scale);
+    this.applyCameraTransform();
     this.refreshAll();
   }
 
@@ -98,9 +100,17 @@ export class MapView {
     this.refreshAll();
   }
 
+  /** Re-sync layer state and redraw existing layer views after map mutations. */
+  refresh(): void {
+    this.syncLayerViews();
+    this.refreshAll();
+  }
+
   destroy(): void {
     this.animations.destroy();
-    for (const v of this.layerViews) v.destroy();
+    for (const { view } of this.layerViews) {
+      if (!view.parent || view.parent === this.world) view.destroy({ children: true });
+    }
     this.layerViews = [];
     this.app.destroy(true, { children: true });
     this.bound = false;
@@ -108,7 +118,7 @@ export class MapView {
 
   /* ─── internals ─── */
 
-  private async addLayerView(layer: Layer): Promise<void> {
+  private async addLayerView(layer: Layer, parent: Container = this.world): Promise<void> {
     let view: Container | undefined;
     if (layer.isTileLayer()) {
       view = new TileLayerView(layer, this.opts.map, this.textures);
@@ -123,15 +133,35 @@ export class MapView {
       group.label = `GroupLayerView(${layer.name})`;
       group.alpha = layer.opacity;
       group.visible = layer.visible;
-      this.world.addChild(group);
-      for (const child of layer.layers) await this.addLayerView(child);
-      this.layerViews.push(group);
+      parent.addChild(group);
+      this.layerViews.push({ layer, view: group });
+      for (const child of layer.layers) await this.addLayerView(child, group);
       return;
     }
     if (view) {
-      this.world.addChild(view);
-      this.layerViews.push(view);
+      parent.addChild(view);
+      this.layerViews.push({ layer, view });
     }
+  }
+
+  private syncLayerViews(): void {
+    for (const { layer, view } of this.layerViews) {
+      if (view instanceof TileLayerView) view.syncLayerState();
+      else if (view instanceof ObjectGroupView) view.syncLayerState();
+      else if (view instanceof ImageLayerView) view.syncLayerState();
+      else if (layer.isGroupLayer()) {
+        view.alpha = layer.opacity;
+        view.visible = layer.visible;
+        view.position.set(
+          layer.x * this.opts.map.tileWidth + layer.offset.x,
+          layer.y * this.opts.map.tileHeight + layer.offset.y,
+        );
+      }
+    }
+  }
+
+  private applyCameraTransform(): void {
+    this.world.position.set(-this.viewport.x * this.cameraScale, -this.viewport.y * this.cameraScale);
   }
 
   private refreshAll(): void {
@@ -143,13 +173,13 @@ export class MapView {
       width: (this.viewport.width || this.opts.map.width * this.opts.map.tileWidth) / this.cameraScale,
       height: (this.viewport.height || this.opts.map.height * this.opts.map.tileHeight) / this.cameraScale,
     };
-    for (const v of this.layerViews) {
+    for (const { view: v } of this.layerViews) {
       if (v instanceof TileLayerView) v.refresh({ exposed: worldViewport });
       else if (v instanceof ObjectGroupView) v.refresh();
     }
   }
 
   private refreshAnimatedLayers(): void {
-    for (const v of this.layerViews) if (v instanceof TileLayerView) v.rerenderAnimated();
+    for (const { view: v } of this.layerViews) if (v instanceof TileLayerView) v.rerenderAnimated();
   }
 }

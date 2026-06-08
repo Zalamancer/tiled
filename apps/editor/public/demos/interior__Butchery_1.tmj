@@ -1,0 +1,5349 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.10.0",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 20,
+  "height": 20,
+  "tilewidth": 16,
+  "tileheight": 16,
+  "infinite": false,
+  "nextlayerid": 7,
+  "nextobjectid": 84,
+  "compressionlevel": -1,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "Tileset_Walls_Interiors",
+      "tilewidth": 16,
+      "tileheight": 16,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 504,
+      "columns": 29,
+      "image": "./demos/interior__Butchery_1_Tileset_Walls_Interiors_.._.._Art_Walls and Floors_Walls_Interiors.png",
+      "imagewidth": 464,
+      "imageheight": 2240
+    },
+    {
+      "firstgid": 3934,
+      "name": "Objects_Props_Interiors",
+      "tilewidth": 64,
+      "tileheight": 64,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 563,
+      "columns": 0,
+      "tiles": [
+        {
+          "id": 721,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile721_.._.._Art_Props_ArmorStand_Blue.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 719,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile719_.._.._Art_Props_ArmorStand_Green.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 720,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile720_.._.._Art_Props_ArmorStand_Purple.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 718,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile718_.._.._Art_Props_ArmorStand_Red.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 717,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile717_.._.._Art_Props_ArmorStand_Yellow.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 789,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile789_.._.._Art_Props_Banner_Large_Blue.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 790,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile790_.._.._Art_Props_Banner_Large_Blue_Stripe.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 791,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile791_.._.._Art_Props_Banner_Large_Green.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 792,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile792_.._.._Art_Props_Banner_Large_Green_Stripe.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 793,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile793_.._.._Art_Props_Banner_Large_Purple.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 794,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile794_.._.._Art_Props_Banner_Large_Purple_Stripe.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 795,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile795_.._.._Art_Props_Banner_Large_Red.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 796,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile796_.._.._Art_Props_Banner_Large_Red_Stripe.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 797,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile797_.._.._Art_Props_Banner_Large_Yellow.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 798,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile798_.._.._Art_Props_Banner_Large_Yellow_Stripe.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 799,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile799_.._.._Art_Props_Banner_Medium_Blue.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 800,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile800_.._.._Art_Props_Banner_Medium_Blue_Stripe.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 801,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile801_.._.._Art_Props_Banner_Medium_Green.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 802,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile802_.._.._Art_Props_Banner_Medium_Green_Stripe.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 803,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile803_.._.._Art_Props_Banner_Medium_Purple.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 804,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile804_.._.._Art_Props_Banner_Medium_Purple_Stripes.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 805,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile805_.._.._Art_Props_Banner_Medium_Red.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 806,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile806_.._.._Art_Props_Banner_Medium_Red_Stripe.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 807,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile807_.._.._Art_Props_Banner_Medium_Yellow.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 808,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile808_.._.._Art_Props_Banner_Medium_Yellow_Stripe.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 306,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile306_.._.._Art_Props_Barrel_Medium_Empty.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 307,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile307_.._.._Art_Props_Barrel_Medium_Water.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 308,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile308_.._.._Art_Props_Barrel_Medium_Covered.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 309,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile309_.._.._Art_Props_Barrel_Medium_Fish.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 310,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile310_.._.._Art_Props_Barrel_Medium_SteelBars.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 311,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile311_.._.._Art_Props_Barrel_Medium_Cloth.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 312,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile312_.._.._Art_Props_Barrel_Medium_Meat.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 687,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile687_.._.._Art_Props_Barrel_Medium_FishingRod.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 686,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile686_.._.._Art_Props_Barrel_Destroyed.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 704,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile704_.._.._Art_Props_Barrel_Medium_Swords.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 648,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile648_.._.._Art_Props_Barrel_Small_Empty.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 649,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile649_.._.._Art_Props_Barrel_Small_Water.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 647,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile647_.._.._Art_Props_Barrel_Small_Covered.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 650,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile650_.._.._Art_Props_Barrel_Small_Fish.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 651,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile651_.._.._Art_Props_Barrel_Small_Arrows.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 646,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile646_.._.._Art_Props_Barrel_Small_Meat.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 825,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile825_.._.._Art_Props_Barrel_Small_Destroyed.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 313,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile313_.._.._Art_Props_Barrel_Horizontal_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 314,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile314_.._.._Art_Props_Barrel_Horizontal_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 315,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile315_.._.._Art_Props_Basket_Empty.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 316,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile316_.._.._Art_Props_Basket_Tomatoes.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 317,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile317_.._.._Art_Props_Basket_Eggplants.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 318,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile318_.._.._Art_Props_Basket_Carrots.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 319,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile319_.._.._Art_Props_Basket_Apples.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 320,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile320_.._.._Art_Props_Bed_1.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 321,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile321_.._.._Art_Props_Bed_2.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 322,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile322_.._.._Art_Props_Bed_Fancy_Front_Red.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 323,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile323_.._.._Art_Props_Bed_Fancy_Front_Red_Unmade.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 324,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile324_.._.._Art_Props_Bed_Fancy_Front_Green.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 325,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile325_.._.._Art_Props_Bed_Fancy_Front_Green_Unmade.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 326,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile326_.._.._Art_Props_Bed_Fancy_Front_Purple.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 327,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile327_.._.._Art_Props_Bed_Fancy_Front_Purple_Unmade.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 328,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile328_.._.._Art_Props_Bed_Fancy_Front_Blue.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 329,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile329_.._.._Art_Props_Bed_Fancy_Front_Blue_Unmade.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 336,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile336_.._.._Art_Props_Bed_Fancy_Left_Blue.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 332,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile332_.._.._Art_Props_Bed_Fancy_Left_Green.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 770,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile770_.._.._Art_Props_Bed_Fancy_Left_Purple.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 330,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile330_.._.._Art_Props_Bed_Fancy_Left_Red.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 772,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile772_.._.._Art_Props_Bed_Fancy_Left_Yellow.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 337,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile337_.._.._Art_Props_Bed_Fancy_Right_Blue.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 333,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile333_.._.._Art_Props_Bed_Fancy_Right_Green.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 335,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile335_.._.._Art_Props_Bed_Fancy_Right_Purple.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 331,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile331_.._.._Art_Props_Bed_Fancy_Right_Red.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 771,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile771_.._.._Art_Props_Bed_Fancy_Right_Yellow.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 338,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile338_.._.._Art_Props_Bed_Hay_1.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 339,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile339_.._.._Art_Props_Bed_Side_1.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 340,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile340_.._.._Art_Props_Bed_Side_2.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 341,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile341_.._.._Art_Props_Bed_Side_3.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 342,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile342_.._.._Art_Props_Bed_Side_4.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 343,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile343_.._.._Art_Props_BedTable_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 344,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile344_.._.._Art_Props_BedTable_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 345,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile345_.._.._Art_Props_BedTable_3.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 346,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile346_.._.._Art_Props_BedTable_4.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 347,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile347_.._.._Art_Props_BedTable_5.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 348,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile348_.._.._Art_Props_Bench_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 829,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile829_.._.._Art_Props_Bench_1_Destroyed.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 349,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile349_.._.._Art_Props_Bench_2.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 830,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile830_.._.._Art_Props_Bench_2_Destroyed.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 350,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile350_.._.._Art_Props_Bench_3.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 828,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile828_.._.._Art_Props_Bench_3_Destroyed.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 351,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile351_.._.._Art_Props_Bench_4.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 352,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile352_.._.._Art_Props_Bench_5.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 353,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile353_.._.._Art_Props_Bench_6.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 354,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile354_.._.._Art_Props_Bench_7.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 355,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile355_.._.._Art_Props_Blood_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 356,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile356_.._.._Art_Props_Blood_2.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 357,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile357_.._.._Art_Props_Book_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 358,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile358_.._.._Art_Props_Book_2.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 359,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile359_.._.._Art_Props_Book_3.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 360,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile360_.._.._Art_Props_Books_Vertical_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 361,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile361_.._.._Art_Props_Books_Vertical_2.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 362,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile362_.._.._Art_Props_Books_Vertical_3.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 363,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile363_.._.._Art_Props_Books_Vertical_4.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 364,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile364_.._.._Art_Props_Books_Vertical_5.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 365,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile365_.._.._Art_Props_Books_Vertical_6.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 366,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile366_.._.._Art_Props_Books_Vertical_7.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 367,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile367_.._.._Art_Props_Books_Vertical_8.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 368,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile368_.._.._Art_Props_Books_Vertical_9.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 681,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile681_.._.._Art_Props_Bottle_Alchemist_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 679,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile679_.._.._Art_Props_Bottle_Alchemist_Green.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 680,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile680_.._.._Art_Props_Bottle_Alchemist_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 678,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile678_.._.._Art_Props_Bottle_Alchemist_Red.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 740,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile740_.._.._Art_Props_Bottle_Alchemist_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 668,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile668_.._.._Art_Props_Bottle_Hanging_Cross_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 666,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile666_.._.._Art_Props_Bottle_Hanging_Cross_Green.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 667,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile667_.._.._Art_Props_Bottle_Hanging_Cross_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 665,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile665_.._.._Art_Props_Bottle_Hanging_Cross_Red.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 741,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile741_.._.._Art_Props_Bottle_Hanging_Cross_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 672,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile672_.._.._Art_Props_Bottle_Hanging_Simple_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 670,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile670_.._.._Art_Props_Bottle_Hanging_Simple_Green.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 671,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile671_.._.._Art_Props_Bottle_Hanging_Simple_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 669,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile669_.._.._Art_Props_Bottle_Hanging_Simple_Red.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 742,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile742_.._.._Art_Props_Bottle_Hanging_Simple_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 375,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile375_.._.._Art_Props_Bottle_Medium_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 376,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile376_.._.._Art_Props_Bottle_Medium_Blue_Label.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 371,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile371_.._.._Art_Props_Bottle_Medium_Green.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 372,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile372_.._.._Art_Props_Bottle_Medium_Green_Label.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 373,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile373_.._.._Art_Props_Bottle_Medium_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 374,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile374_.._.._Art_Props_Bottle_Medium_Purple_Label.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 369,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile369_.._.._Art_Props_Bottle_Medium_Red.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 370,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile370_.._.._Art_Props_Bottle_Medium_Red_Label.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 743,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile743_.._.._Art_Props_Bottle_Medium_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 744,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile744_.._.._Art_Props_Bottle_Medium_Yellow_Label.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 682,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile682_.._.._Art_Props_Bottle_Potion_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 684,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile684_.._.._Art_Props_Bottle_Potion_Green.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 685,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile685_.._.._Art_Props_Bottle_Potion_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 683,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile683_.._.._Art_Props_Bottle_Potion_Red.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 745,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile745_.._.._Art_Props_Bottle_Potion_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 676,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile676_.._.._Art_Props_Bottle_Round_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 674,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile674_.._.._Art_Props_Bottle_Round_Green.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 675,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile675_.._.._Art_Props_Bottle_Round_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 673,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile673_.._.._Art_Props_Bottle_Round_Red.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 746,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile746_.._.._Art_Props_Bottle_Round_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 383,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile383_.._.._Art_Props_Bottle_Small_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 384,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile384_.._.._Art_Props_Bottle_Small_Blue_Label.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 379,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile379_.._.._Art_Props_Bottle_Small_Green.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 380,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile380_.._.._Art_Props_Bottle_Small_Green_Label.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 381,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile381_.._.._Art_Props_Bottle_Small_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 382,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile382_.._.._Art_Props_Bottle_Small_Purple_Label.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 377,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile377_.._.._Art_Props_Bottle_Small_Red.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 378,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile378_.._.._Art_Props_Bottle_Small_Red_Label.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 738,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile738_.._.._Art_Props_Bottle_Small_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 739,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile739_.._.._Art_Props_Bottle_Small_Yellow_Label.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 385,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile385_.._.._Art_Props_Brazier_1.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 386,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile386_.._.._Art_Props_Brazier_1_Pot.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 387,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile387_.._.._Art_Props_Brazier_2.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 388,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile388_.._.._Art_Props_Brazier_2_Pot.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 688,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile688_.._.._Art_Props_Bucket_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 389,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile389_.._.._Art_Props_Candle_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 390,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile390_.._.._Art_Props_Candle_2.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 391,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile391_.._.._Art_Props_Candle_3.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 392,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile392_.._.._Art_Props_Candle_4.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 393,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile393_.._.._Art_Props_Candle_5.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 773,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile773_.._.._Art_Props_Candle_6.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 641,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile641_.._.._Art_Props_CandleHolder_Gold_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 642,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile642_.._.._Art_Props_CandleHolder_Gold_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 643,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile643_.._.._Art_Props_CandleHolder_Gold_3.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 654,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile654_.._.._Art_Props_CandleHolder_Gold_4.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 762,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile762_.._.._Art_Props_CandleHolder_Gold_Short_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 763,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile763_.._.._Art_Props_CandleHolder_Gold_Short_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 764,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile764_.._.._Art_Props_CandleHolder_Gold_Short_3.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 765,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile765_.._.._Art_Props_CandleHolder_Gold_Short_4.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 644,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile644_.._.._Art_Props_CandleHolder_Steel_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 645,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile645_.._.._Art_Props_CandleHolder_Steel_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 640,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile640_.._.._Art_Props_CandleHolder_Steel_3.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 653,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile653_.._.._Art_Props_CandleHolder_Steel_4.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 766,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile766_.._.._Art_Props_CandleHolder_Steel_Short_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 767,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile767_.._.._Art_Props_CandleHolder_Steel_Short_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 768,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile768_.._.._Art_Props_CandleHolder_Steel_Short_3.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 769,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile769_.._.._Art_Props_CandleHolder_Steel_Short_4.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 394,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile394_.._.._Art_Props_Cards_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 395,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile395_.._.._Art_Props_Cards_2.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 396,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile396_.._.._Art_Props_Cards_3.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 397,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile397_.._.._Art_Props_Cards_4.png",
+          "imagewidth": 48,
+          "imageheight": 16
+        },
+        {
+          "id": 398,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile398_.._.._Art_Props_Carpet_1.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 399,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile399_.._.._Art_Props_Carpet_2.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 652,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile652_.._.._Art_Props_Carpet_3.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 722,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile722_.._.._Art_Props_Carpet_4.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 723,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile723_.._.._Art_Props_Carpet_5.png",
+          "imagewidth": 64,
+          "imageheight": 32
+        },
+        {
+          "id": 849,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile849_.._.._Art_Props_Chair_Back_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 850,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile850_.._.._Art_Props_Chair_Front_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 851,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile851_.._.._Art_Props_Chair_Front_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 852,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile852_.._.._Art_Props_Chair_Front_Green.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 853,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile853_.._.._Art_Props_Chair_Front_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 854,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile854_.._.._Art_Props_Chair_Front_Red.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 855,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile855_.._.._Art_Props_Chair_Front_White.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 856,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile856_.._.._Art_Props_Chair_Front_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 857,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile857_.._.._Art_Props_Chair_Left_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 858,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile858_.._.._Art_Props_Chair_Left_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 859,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile859_.._.._Art_Props_Chair_Left_Green.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 860,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile860_.._.._Art_Props_Chair_Left_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 861,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile861_.._.._Art_Props_Chair_Left_Red.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 862,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile862_.._.._Art_Props_Chair_Left_White.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 863,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile863_.._.._Art_Props_Chair_Left_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 864,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile864_.._.._Art_Props_Chair_Right_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 865,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile865_.._.._Art_Props_Chair_Right_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 866,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile866_.._.._Art_Props_Chair_Right_Green.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 867,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile867_.._.._Art_Props_Chair_Right_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 868,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile868_.._.._Art_Props_Chair_Right_Red.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 869,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile869_.._.._Art_Props_Chair_Right_White.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 848,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile848_.._.._Art_Props_Chair_Right_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 400,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile400_.._.._Art_Props_Chest_Gold_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 401,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile401_.._.._Art_Props_Chest_Gold_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 402,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile402_.._.._Art_Props_Chest_Gold_3.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 403,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile403_.._.._Art_Props_Chest_Steel_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 820,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile820_.._.._Art_Props_Chest_Steel_1_Destroyed.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 404,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile404_.._.._Art_Props_Chest_Steel_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 821,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile821_.._.._Art_Props_Chest_Steel_2_Destroyed.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 405,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile405_.._.._Art_Props_Chest_Steel_3.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 822,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile822_.._.._Art_Props_Chest_Steel_3_Destroyed.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 406,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile406_.._.._Art_Props_Chest_Wood_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 407,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile407_.._.._Art_Props_Chest_Wood_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 408,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile408_.._.._Art_Props_Chest_Wood_3.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 409,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile409_.._.._Art_Props_Cleaver_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 413,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile413_.._.._Art_Props_Cloth_Folded_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 411,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile411_.._.._Art_Props_Cloth_Folded_Green.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 412,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile412_.._.._Art_Props_Cloth_Folded_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 410,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile410_.._.._Art_Props_Cloth_Folded_Red.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 818,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile818_.._.._Art_Props_Cloth_Folded_White.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 750,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile750_.._.._Art_Props_Cloth_Folded_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 689,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile689_.._.._Art_Props_Cloth_Rolled_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 691,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile691_.._.._Art_Props_Cloth_Rolled_Green.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 692,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile692_.._.._Art_Props_Cloth_Rolled_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 690,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile690_.._.._Art_Props_Cloth_Rolled_Red.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 817,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile817_.._.._Art_Props_Cloth_Rolled_White.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 751,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile751_.._.._Art_Props_Cloth_Rolled_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 414,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile414_.._.._Art_Props_Crate_Large_Closed.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 415,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile415_.._.._Art_Props_Crate_Large_Empty.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 416,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile416_.._.._Art_Props_Crate_Medium_Right.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 417,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile417_.._.._Art_Props_Crate_Medium_Left.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 418,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile418_.._.._Art_Props_Crate_Wide_Empty_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 419,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile419_.._.._Art_Props_Crate_Wide_Empty_2.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 420,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile420_.._.._Art_Props_Crate_Medium_Closed.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 421,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile421_.._.._Art_Props_Crate_Medium_Empty.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 422,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile422_.._.._Art_Props_Crate_Wide_Hay_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 423,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile423_.._.._Art_Props_Crate_Wide_Hay_2.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 424,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile424_.._.._Art_Props_Crate_Small_Empty.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 425,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile425_.._.._Art_Props_Crate_Small_Bush.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 426,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile426_.._.._Art_Props_Crate_Small_Vases_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 427,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile427_.._.._Art_Props_Crate_Small_Flowers_White.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 428,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile428_.._.._Art_Props_Crate_Small_Flowers_Red.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 429,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile429_.._.._Art_Props_Crate_Small_Flowers_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 430,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile430_.._.._Art_Props_Crate_Small_Flowers_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 431,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile431_.._.._Art_Props_Crate_Small_Vases_2.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 432,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile432_.._.._Art_Props_Crate_Small_Tomatoes.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 433,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile433_.._.._Art_Props_Crate_Small_Eggplants.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 434,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile434_.._.._Art_Props_Crate_Small_Carrots.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 870,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile870_.._.._Art_Props_Crate_Small_Potatoes.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 871,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile871_.._.._Art_Props_Crate_Small_Grain.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 435,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile435_.._.._Art_Props_Crate_Steel_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 436,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile436_.._.._Art_Props_Crate_Steel_2.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 627,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile627_.._.._Art_Props_Crate_Steel_4.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 628,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile628_.._.._Art_Props_Crate_Steel_3.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 437,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile437_.._.._Art_Props_Crate_Water_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 438,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile438_.._.._Art_Props_Crate_Water_2.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 439,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile439_.._.._Art_Props_Desk_1.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 440,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile440_.._.._Art_Props_Desk_2.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 441,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile441_.._.._Art_Props_Desk_3.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 442,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile442_.._.._Art_Props_Desk_4.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 443,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile443_.._.._Art_Props_Desk_5.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 444,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile444_.._.._Art_Props_Desk_Corner_1.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 445,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile445_.._.._Art_Props_Desk_Corner_2.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 446,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile446_.._.._Art_Props_Desk_Corner_3.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 447,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile447_.._.._Art_Props_Desk_Corner_4.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 448,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile448_.._.._Art_Props_Desk_Side_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 449,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile449_.._.._Art_Props_Desk_Side_2.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 450,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile450_.._.._Art_Props_Desk_Side_3.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 451,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile451_.._.._Art_Props_Desk_Side_4.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 452,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile452_.._.._Art_Props_Desk_Side_5.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 728,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile728_.._.._Art_Props_DyedCloth_Big_Blue.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 726,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile726_.._.._Art_Props_DyedCloth_Big_Green.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 727,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile727_.._.._Art_Props_DyedCloth_Big_Purple.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 725,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile725_.._.._Art_Props_DyedCloth_Big_Red.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 816,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile816_.._.._Art_Props_DyedCloth_Big_White.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 747,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile747_.._.._Art_Props_DyedCloth_Big_Yellow.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 724,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile724_.._.._Art_Props_DyedCloth_Medium_Blue.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 730,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile730_.._.._Art_Props_DyedCloth_Medium_Green.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 731,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile731_.._.._Art_Props_DyedCloth_Medium_Purple.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 729,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile729_.._.._Art_Props_DyedCloth_Medium_Red.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 815,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile815_.._.._Art_Props_DyedCloth_Medium_White.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 748,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile748_.._.._Art_Props_DyedCloth_Medium_Yellow.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 752,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile752_.._.._Art_Props_DyeingPowder_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 754,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile754_.._.._Art_Props_DyeingPowder_Green.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 755,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile755_.._.._Art_Props_DyeingPowder_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 753,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile753_.._.._Art_Props_DyeingPowder_Red.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 749,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile749_.._.._Art_Props_DyeingPowder_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 823,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile823_.._.._Art_Props_Fish_Hanging_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 659,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile659_.._.._Art_Props_Fish_Hanging_Green.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 658,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile658_.._.._Art_Props_Fish_Hanging_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 660,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile660_.._.._Art_Props_Fish_Hanging_Red.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 657,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile657_.._.._Art_Props_Fish_Hanging_White.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 819,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile819_.._.._Art_Props_Fish_Hanging_YYellow.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 661,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile661_.._.._Art_Props_FishingNet_1.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 662,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile662_.._.._Art_Props_FishingNet_2.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 663,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile663_.._.._Art_Props_FishingRod_1.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 664,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile664_.._.._Art_Props_Food_Cheese_1.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 453,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile453_.._.._Art_Props_Food_Meat_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 454,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile454_.._.._Art_Props_Food_Steak_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 455,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile455_.._.._Art_Props_Food_Steak_2.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 456,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile456_.._.._Art_Props_Glass_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 457,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile457_.._.._Art_Props_Glass_2.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 826,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile826_.._.._Art_Props_Knife_1_Hanging.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 827,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile827_.._.._Art_Props_Knife_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 458,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile458_.._.._Art_Props_Lantern_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 847,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile847_.._.._Art_Props_Lantern_2.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 782,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile782_.._.._Art_Props_Lectern_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 783,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile783_.._.._Art_Props_Lectern_Blue.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 784,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile784_.._.._Art_Props_Lectern_Green.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 785,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile785_.._.._Art_Props_Lectern_Purple.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 786,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile786_.._.._Art_Props_Lectern_Red.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 787,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile787_.._.._Art_Props_Lectern_White.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 788,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile788_.._.._Art_Props_Lectern_Yellow.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 459,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile459_.._.._Art_Props_Package_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 460,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile460_.._.._Art_Props_Package_2.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 824,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile824_.._.._Art_Props_Package_3.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 656,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile656_.._.._Art_Props_Paddle_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 655,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile655_.._.._Art_Props_Paddle_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 461,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile461_.._.._Art_Props_Plate_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 462,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile462_.._.._Art_Props_Plate_2.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 463,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile463_.._.._Art_Props_Pot_Ceramic_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 464,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile464_.._.._Art_Props_Pot_Ceramic_2.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 465,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile465_.._.._Art_Props_Pot_Ceramic_3.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 466,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile466_.._.._Art_Props_Pot_Ceramic_4.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 467,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile467_.._.._Art_Props_Pot_Ceramic_5.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 468,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile468_.._.._Art_Props_Pot_Ceramic_6.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 469,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile469_.._.._Art_Props_Pot_Ceramic_7.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 470,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile470_.._.._Art_Props_Pot_Ceramic_8.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 630,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile630_.._.._Art_Props_Pot_Ceramic_9.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 832,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile832_.._.._Art_Props_Pot_Ceramic_10.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 471,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile471_.._.._Art_Props_Pot_Ceramic_Large_1.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 472,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile472_.._.._Art_Props_Pot_Ceramic_Large_2.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 473,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile473_.._.._Art_Props_Pot_Ceramic_Large_3.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 629,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile629_.._.._Art_Props_Pot_Ceramic_Large_4.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 474,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile474_.._.._Art_Props_Pot_Stone_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 475,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile475_.._.._Art_Props_Pot_Stone_2.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 476,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile476_.._.._Art_Props_Pot_Stone_3.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 477,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile477_.._.._Art_Props_Pot_Stone_4.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 478,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile478_.._.._Art_Props_Pot_Stone_5.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 479,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile479_.._.._Art_Props_Pot_Stone_6.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 480,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile480_.._.._Art_Props_Pot_Stone_7.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 481,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile481_.._.._Art_Props_Pot_Stone_8.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 631,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile631_.._.._Art_Props_Pot_Stone_9.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 831,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile831_.._.._Art_Props_Pot_Stone_10.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 482,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile482_.._.._Art_Props_Sack_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 626,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile626_.._.._Art_Props_Sack_2.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 625,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile625_.._.._Art_Props_Sack_3.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 483,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile483_.._.._Art_Props_Sack_4.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 484,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile484_.._.._Art_Props_Scroll_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 485,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile485_.._.._Art_Props_Shelf_Medium_Books_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 486,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile486_.._.._Art_Props_Shelf_Medium_Books_2.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 487,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile487_.._.._Art_Props_Shelf_Medium_Books_3.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 488,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile488_.._.._Art_Props_Shelf_Medium_Bottles_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 489,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile489_.._.._Art_Props_Shelf_Medium_Bottles_2.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 490,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile490_.._.._Art_Props_Shelf_Medium_Bottles_3.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 491,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile491_.._.._Art_Props_Shelf_Medium_Closet_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 492,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile492_.._.._Art_Props_Shelf_Medium_Closet_2.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 493,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile493_.._.._Art_Props_Shelf_Medium_Closet_3.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 494,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile494_.._.._Art_Props_Shelf_Medium_Glass_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 495,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile495_.._.._Art_Props_Shelf_Medium_Glass_2.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 496,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile496_.._.._Art_Props_Shelf_Medium_Glass_3.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 497,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile497_.._.._Art_Props_Shelf_Medium_Scrolls_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 498,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile498_.._.._Art_Props_Shelf_Medium_Scrolls_2.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 499,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile499_.._.._Art_Props_Shelf_Medium_Scrolls_3.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 500,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile500_.._.._Art_Props_Shelf_Short_Books_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 501,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile501_.._.._Art_Props_Shelf_Short_Books_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 502,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile502_.._.._Art_Props_Shelf_Short_Books_3.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 503,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile503_.._.._Art_Props_Shelf_Short_Bottles_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 504,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile504_.._.._Art_Props_Shelf_Short_Bottles_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 505,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile505_.._.._Art_Props_Shelf_Short_Bottles_3.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 506,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile506_.._.._Art_Props_Shelf_Short_Closet_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 507,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile507_.._.._Art_Props_Shelf_Short_Closet_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 508,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile508_.._.._Art_Props_Shelf_Short_Closet_3.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 509,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile509_.._.._Art_Props_Shelf_Short_Glass_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 510,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile510_.._.._Art_Props_Shelf_Short_Glass_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 511,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile511_.._.._Art_Props_Shelf_Short_Glass_3.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 512,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile512_.._.._Art_Props_Shelf_Short_Scrolls_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 513,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile513_.._.._Art_Props_Shelf_Short_Scrolls_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 514,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile514_.._.._Art_Props_Shelf_Short_Scrolls_3.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 515,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile515_.._.._Art_Props_Shelf_Side_Medium_Left_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 516,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile516_.._.._Art_Props_Shelf_Side_Medium_Left_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 517,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile517_.._.._Art_Props_Shelf_Side_Medium_Left_3.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 518,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile518_.._.._Art_Props_Shelf_Side_Medium_Right_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 519,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile519_.._.._Art_Props_Shelf_Side_Medium_Right_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 520,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile520_.._.._Art_Props_Shelf_Side_Medium_Right_3.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 521,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile521_.._.._Art_Props_Shelf_Side_Short_Left_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 522,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile522_.._.._Art_Props_Shelf_Side_Short_Left_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 523,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile523_.._.._Art_Props_Shelf_Side_Short_Left_3.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 524,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile524_.._.._Art_Props_Shelf_Side_Short_Right_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 525,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile525_.._.._Art_Props_Shelf_Side_Short_Right_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 526,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile526_.._.._Art_Props_Shelf_Side_Short_Right_3.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 527,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile527_.._.._Art_Props_Shelf_Side_Tall_Left_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 528,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile528_.._.._Art_Props_Shelf_Side_Tall_Left_2.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 529,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile529_.._.._Art_Props_Shelf_Side_Tall_Left_3.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 530,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile530_.._.._Art_Props_Shelf_Side_Tall_Right_1.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 531,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile531_.._.._Art_Props_Shelf_Side_Tall_Right_2.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 532,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile532_.._.._Art_Props_Shelf_Side_Tall_Right_3.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 533,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile533_.._.._Art_Props_Shelf_Tall_Books_1.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 534,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile534_.._.._Art_Props_Shelf_Tall_Books_2.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 535,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile535_.._.._Art_Props_Shelf_Tall_Books_3.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 536,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile536_.._.._Art_Props_Shelf_Tall_Bottles_1.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 537,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile537_.._.._Art_Props_Shelf_Tall_Bottles_2.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 538,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile538_.._.._Art_Props_Shelf_Tall_Bottles_3.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 539,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile539_.._.._Art_Props_Shelf_Tall_Closet_1.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 540,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile540_.._.._Art_Props_Shelf_Tall_Closet_2.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 541,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile541_.._.._Art_Props_Shelf_Tall_Closet_3.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 542,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile542_.._.._Art_Props_Shelf_Tall_Glass_1.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 543,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile543_.._.._Art_Props_Shelf_Tall_Glass_2.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 544,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile544_.._.._Art_Props_Shelf_Tall_Glass_3.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 545,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile545_.._.._Art_Props_Shelf_Tall_Scrolls_1.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 546,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile546_.._.._Art_Props_Shelf_Tall_Scrolls_2.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 547,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile547_.._.._Art_Props_Shelf_Tall_Scrolls_3.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 548,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile548_.._.._Art_Props_Shelf_Wall_1.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 549,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile549_.._.._Art_Props_Shelf_Wall_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 550,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile550_.._.._Art_Props_Shelf_Wall_3.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 551,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile551_.._.._Art_Props_Shelf_Wall_4.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 552,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile552_.._.._Art_Props_Shelf_Wall_Large_1.png",
+          "imagewidth": 48,
+          "imageheight": 16
+        },
+        {
+          "id": 553,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile553_.._.._Art_Props_Shelf_Wall_Large_2.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 554,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile554_.._.._Art_Props_Shelf_Wall_Large_4.png",
+          "imagewidth": 48,
+          "imageheight": 16
+        },
+        {
+          "id": 555,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile555_.._.._Art_Props_Shelf_Wall_Large3.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 695,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile695_.._.._Art_Props_Shield_Front_Blue.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 693,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile693_.._.._Art_Props_Shield_Front_Green.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 694,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile694_.._.._Art_Props_Shield_Front_Purple.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 556,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile556_.._.._Art_Props_Shield_Front_Red.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 756,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile756_.._.._Art_Props_Shield_Front_Yellow.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 699,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile699_.._.._Art_Props_Shield_Side_Blue.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 697,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile697_.._.._Art_Props_Shield_Side_Green.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 698,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile698_.._.._Art_Props_Shield_Side_Purple.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 757,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile757_.._.._Art_Props_Shield_Side_Yellow.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 696,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile696_.._.._Art_Props_Shield_Side_Red.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 703,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile703_.._.._Art_Props_Shield_Swords_Blue.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 701,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile701_.._.._Art_Props_Shield_Swords_Green.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 702,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile702_.._.._Art_Props_Shield_Swords_Purple.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 700,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile700_.._.._Art_Props_Shield_Swords_Red.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 758,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile758_.._.._Art_Props_Shield_Swords_Yellow.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 677,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile677_.._.._Art_Props_Skull_Animal_1.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 557,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile557_.._.._Art_Props_Sword_1.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 558,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile558_.._.._Art_Props_Table_Large_1.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 811,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile811_.._.._Art_Props_Table_Large_1_Destroyed.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 562,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile562_.._.._Art_Props_Table_Large_Blue.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 560,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile560_.._.._Art_Props_Table_Large_Green.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 561,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile561_.._.._Art_Props_Table_Large_Purple.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 559,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile559_.._.._Art_Props_Table_Large_Red.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 812,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile812_.._.._Art_Props_Table_Large_White.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 733,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile733_.._.._Art_Props_Table_Large_Yellow.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 563,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile563_.._.._Art_Props_Table_Large_White_Stripe.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 567,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile567_.._.._Art_Props_Table_Large_Blue_Stripe.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 565,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile565_.._.._Art_Props_Table_Large_Green_Stripe.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 566,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile566_.._.._Art_Props_Table_Large_Purple_Stripe.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 564,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile564_.._.._Art_Props_Table_Large_Red_Stripe.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 734,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile734_.._.._Art_Props_Table_Large_Yellow_Stripe.png",
+          "imagewidth": 64,
+          "imageheight": 48
+        },
+        {
+          "id": 568,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile568_.._.._Art_Props_Table_Medium_1.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 813,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile813_.._.._Art_Props_Table_Medium_1_Destroyed.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 572,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile572_.._.._Art_Props_Table_Medium_Blue.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 570,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile570_.._.._Art_Props_Table_Medium_Green.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 571,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile571_.._.._Art_Props_Table_Medium_Purple.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 569,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile569_.._.._Art_Props_Table_Medium_Red.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 814,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile814_.._.._Art_Props_Table_Medium_White.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 735,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile735_.._.._Art_Props_Table_Medium_Yellow.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 577,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile577_.._.._Art_Props_Table_Medium_Blue_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 575,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile575_.._.._Art_Props_Table_Medium_Green_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 576,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile576_.._.._Art_Props_Table_Medium_Purple_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 574,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile574_.._.._Art_Props_Table_Medium_Red_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 573,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile573_.._.._Art_Props_Table_Medium_White_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 736,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile736_.._.._Art_Props_Table_Medium_Yellow_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 48
+        },
+        {
+          "id": 578,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile578_.._.._Art_Props_Table_Small_1.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 809,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile809_.._.._Art_Props_Table_Small_1_Destroyed.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 582,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile582_.._.._Art_Props_Table_Small_Blue.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 580,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile580_.._.._Art_Props_Table_Small_Green.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 581,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile581_.._.._Art_Props_Table_Small_Purple.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 579,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile579_.._.._Art_Props_Table_Small_Red.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 810,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile810_.._.._Art_Props_Table_Small_White.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 737,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile737_.._.._Art_Props_Table_Small_Yellow.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 583,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile583_.._.._Art_Props_Table_Small_White_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 587,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile587_.._.._Art_Props_Table_Small_Blue_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 585,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile585_.._.._Art_Props_Table_Small_Green_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 586,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile586_.._.._Art_Props_Table_Small_Purple_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 584,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile584_.._.._Art_Props_Table_Small_Red_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 732,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile732_.._.._Art_Props_Table_Small_Yellow_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 833,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile833_.._.._Art_Props_Table_Vertical_1.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 834,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile834_.._.._Art_Props_Table_Vertical_1_Destroyed.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 835,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile835_.._.._Art_Props_Table_Vertical_Blue.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 836,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile836_.._.._Art_Props_Table_Vertical_Blue_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 837,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile837_.._.._Art_Props_Table_Vertical_Green.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 838,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile838_.._.._Art_Props_Table_Vertical_Green_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 839,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile839_.._.._Art_Props_Table_Vertical_Purple.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 840,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile840_.._.._Art_Props_Table_Vertical_Purple_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 841,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile841_.._.._Art_Props_Table_Vertical_Red.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 842,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile842_.._.._Art_Props_Table_Vertical_Red_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 843,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile843_.._.._Art_Props_Table_Vertical_White.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 844,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile844_.._.._Art_Props_Table_Vertical_White_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 845,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile845_.._.._Art_Props_Table_Vertical_Yellow.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 846,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile846_.._.._Art_Props_Table_Vertical_Yellow_Stripe.png",
+          "imagewidth": 48,
+          "imageheight": 64
+        },
+        {
+          "id": 588,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile588_.._.._Art_Props_Vase_1.png",
+          "imagewidth": 16,
+          "imageheight": 16
+        },
+        {
+          "id": 589,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile589_.._.._Art_Props_Vase_2.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 590,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile590_.._.._Art_Props_Vase_3.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 591,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile591_.._.._Art_Props_Vase_4.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 592,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile592_.._.._Art_Props_Vase_5.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 593,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile593_.._.._Art_Props_Wall_Bow_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 594,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile594_.._.._Art_Props_Wall_Bow_2.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 595,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile595_.._.._Art_Props_Wall_Map_Large_1.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 596,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile596_.._.._Art_Props_Wall_Map_Medium_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 597,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile597_.._.._Art_Props_Wall_Map_Small_1.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 598,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile598_.._.._Art_Props_Wall_Painting_Large_1.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 599,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile599_.._.._Art_Props_Wall_Painting_Large_2.png",
+          "imagewidth": 48,
+          "imageheight": 32
+        },
+        {
+          "id": 600,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile600_.._.._Art_Props_Wall_Painting_Medium_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 601,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile601_.._.._Art_Props_Wall_Painting_Medium_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 602,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile602_.._.._Art_Props_Wall_Painting_Small_1.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 603,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile603_.._.._Art_Props_Wall_Painting_Small_2.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 604,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile604_.._.._Art_Props_Wardrobe_1.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 605,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile605_.._.._Art_Props_Wardrobe_2.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 606,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile606_.._.._Art_Props_Wardrobe_3.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 607,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile607_.._.._Art_Props_Wardrobe_4.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 608,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile608_.._.._Art_Props_Wardrobe_5.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 609,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile609_.._.._Art_Props_Wardrobe_Side_1.png",
+          "imagewidth": 16,
+          "imageheight": 64
+        },
+        {
+          "id": 610,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile610_.._.._Art_Props_WeaponsStand_1.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 611,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile611_.._.._Art_Props_WeaponsStand_2.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 612,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile612_.._.._Art_Props_WeaponsStand_3.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 708,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile708_.._.._Art_Props_WeaponsStand_4_Red.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 706,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile706_.._.._Art_Props_WeaponsStand_4_Green.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 707,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile707_.._.._Art_Props_WeaponsStand_4_Purple.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 705,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile705_.._.._Art_Props_WeaponsStand_4_Blue.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 761,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile761_.._.._Art_Props_WeaponsStand_4_Yellow.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 712,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile712_.._.._Art_Props_WeaponsStand_5_Red.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 710,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile710_.._.._Art_Props_WeaponsStand_5_Green.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 711,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile711_.._.._Art_Props_WeaponsStand_5_Purple.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 709,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile709_.._.._Art_Props_WeaponsStand_5_Blue.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 759,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile759_.._.._Art_Props_WeaponsStand_5_Yellow.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 615,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile615_.._.._Art_Props_WeaponsStand_6.png",
+          "imagewidth": 32,
+          "imageheight": 64
+        },
+        {
+          "id": 716,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile716_.._.._Art_Props_WeaponsStand_7_Red.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 714,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile714_.._.._Art_Props_WeaponsStand_7_Green.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 715,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile715_.._.._Art_Props_WeaponsStand_7_Purple.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 713,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile713_.._.._Art_Props_WeaponsStand_7_Blue.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 760,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile760_.._.._Art_Props_WeaponsStand_7_Yellow.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 774,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile774_.._.._Art_Props_Window_Stone_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 775,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile775_.._.._Art_Props_Window_Stone_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 776,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile776_.._.._Art_Props_Window_Stone_3.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 777,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile777_.._.._Art_Props_Window_Stone_4.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 778,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile778_.._.._Art_Props_Window_Stone_5.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 779,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile779_.._.._Art_Props_Window_Stone_6.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 780,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile780_.._.._Art_Props_Window_Stone_7.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 781,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile781_.._.._Art_Props_Window_Stone_8.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 633,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile633_.._.._Art_Props_Window_Wood_1.png",
+          "imagewidth": 16,
+          "imageheight": 32
+        },
+        {
+          "id": 634,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile634_.._.._Art_Props_Window_Wood_2.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 635,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile635_.._.._Art_Props_Window_Wood_3.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 636,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile636_.._.._Art_Props_Window_Wood_4.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 637,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile637_.._.._Art_Props_Window_Wood_5.png",
+          "imagewidth": 32,
+          "imageheight": 16
+        },
+        {
+          "id": 638,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile638_.._.._Art_Props_Window_Wood_6.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 639,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile639_.._.._Art_Props_Window_Wood_7.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 632,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile632_.._.._Art_Props_Window_Wood_8.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 617,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile617_.._.._Art_Props_WritingDesk_1.png",
+          "imagewidth": 32,
+          "imageheight": 32
+        },
+        {
+          "id": 618,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile618_.._.._Art_Props_WritingDesk_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 619,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile619_.._.._Art_Props_WritingDesk_3.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 620,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile620_.._.._Art_Props_WritingDesk_Book_1.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 621,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile621_.._.._Art_Props_WritingDesk_Book_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 622,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile622_.._.._Art_Props_WritingDesk_Book_3.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 623,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile623_.._.._Art_Props_WritingDesk_Map_1.png",
+          "imagewidth": 32,
+          "imageheight": 48
+        },
+        {
+          "id": 624,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile624_.._.._Art_Props_WritingDesk_Map_2.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        },
+        {
+          "id": 305,
+          "image": "./demos/interior__Butchery_1_Objects_Props_Interiors_tile305_.._.._Art_Props_WritingDesk_Map_3.png",
+          "imagewidth": 16,
+          "imageheight": 48
+        }
+      ]
+    },
+    {
+      "firstgid": 4806,
+      "name": "Tileset_Floor_Interiors",
+      "tilewidth": 16,
+      "tileheight": 16,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 0,
+      "columns": 42,
+      "image": "./demos/interior__Butchery_1_Tileset_Floor_Interiors_.._.._Art_Walls and Floors_Floor_Interiors.png",
+      "imagewidth": 672,
+      "imageheight": 1248,
+      "wangsets": [
+        {
+          "name": "Carpets",
+          "type": "mixed",
+          "tile": -1,
+          "colors": [
+            {
+              "name": "Empty",
+              "color": "#ff0000",
+              "tile": -1,
+              "probability": 1
+            },
+            {
+              "name": "Red Carpet",
+              "color": "#00ff00",
+              "tile": -1,
+              "probability": 1
+            },
+            {
+              "name": "Green Carpet",
+              "color": "#0000ff",
+              "tile": -1,
+              "probability": 1
+            },
+            {
+              "name": "Purple Carpet",
+              "color": "#ff7700",
+              "tile": -1,
+              "probability": 1
+            },
+            {
+              "name": "Blue Carpet",
+              "color": "#00e9ff",
+              "tile": -1,
+              "probability": 1
+            },
+            {
+              "name": "White Carpet",
+              "color": "#ff00d8",
+              "tile": -1,
+              "probability": 1
+            },
+            {
+              "name": "Yellow Carpet",
+              "color": "#ffff00",
+              "tile": -1,
+              "probability": 1
+            }
+          ],
+          "wangtiles": [
+            {
+              "tileid": 0,
+              "wangid": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 43,
+              "wangid": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 44,
+              "wangid": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "tileid": 45,
+              "wangid": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "tileid": 47,
+              "wangid": [
+                2,
+                2,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2
+              ]
+            },
+            {
+              "tileid": 48,
+              "wangid": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "tileid": 50,
+              "wangid": [
+                1,
+                1,
+                3,
+                3,
+                3,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 51,
+              "wangid": [
+                1,
+                1,
+                3,
+                3,
+                3,
+                3,
+                3,
+                1
+              ]
+            },
+            {
+              "tileid": 52,
+              "wangid": [
+                1,
+                1,
+                1,
+                1,
+                3,
+                3,
+                3,
+                1
+              ]
+            },
+            {
+              "tileid": 54,
+              "wangid": [
+                3,
+                3,
+                3,
+                1,
+                3,
+                3,
+                3,
+                3
+              ]
+            },
+            {
+              "tileid": 55,
+              "wangid": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                1,
+                3,
+                3
+              ]
+            },
+            {
+              "tileid": 57,
+              "wangid": [
+                1,
+                1,
+                4,
+                4,
+                4,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 58,
+              "wangid": [
+                1,
+                1,
+                4,
+                4,
+                4,
+                4,
+                4,
+                1
+              ]
+            },
+            {
+              "tileid": 59,
+              "wangid": [
+                1,
+                1,
+                1,
+                1,
+                4,
+                4,
+                4,
+                1
+              ]
+            },
+            {
+              "tileid": 61,
+              "wangid": [
+                4,
+                4,
+                4,
+                1,
+                4,
+                4,
+                4,
+                4
+              ]
+            },
+            {
+              "tileid": 62,
+              "wangid": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                1,
+                4,
+                4
+              ]
+            },
+            {
+              "tileid": 64,
+              "wangid": [
+                1,
+                1,
+                5,
+                5,
+                5,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 65,
+              "wangid": [
+                1,
+                1,
+                5,
+                5,
+                5,
+                5,
+                5,
+                1
+              ]
+            },
+            {
+              "tileid": 66,
+              "wangid": [
+                1,
+                1,
+                1,
+                1,
+                5,
+                5,
+                5,
+                1
+              ]
+            },
+            {
+              "tileid": 68,
+              "wangid": [
+                5,
+                5,
+                5,
+                1,
+                5,
+                5,
+                5,
+                5
+              ]
+            },
+            {
+              "tileid": 69,
+              "wangid": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                1,
+                5,
+                5
+              ]
+            },
+            {
+              "tileid": 71,
+              "wangid": [
+                1,
+                1,
+                6,
+                6,
+                6,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 72,
+              "wangid": [
+                1,
+                1,
+                6,
+                6,
+                6,
+                6,
+                6,
+                1
+              ]
+            },
+            {
+              "tileid": 73,
+              "wangid": [
+                1,
+                1,
+                1,
+                1,
+                6,
+                6,
+                6,
+                1
+              ]
+            },
+            {
+              "tileid": 75,
+              "wangid": [
+                6,
+                6,
+                6,
+                1,
+                6,
+                6,
+                6,
+                6
+              ]
+            },
+            {
+              "tileid": 76,
+              "wangid": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                1,
+                6,
+                6
+              ]
+            },
+            {
+              "tileid": 78,
+              "wangid": [
+                1,
+                1,
+                7,
+                7,
+                7,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 79,
+              "wangid": [
+                1,
+                1,
+                7,
+                7,
+                7,
+                7,
+                7,
+                1
+              ]
+            },
+            {
+              "tileid": 80,
+              "wangid": [
+                1,
+                1,
+                1,
+                1,
+                7,
+                7,
+                7,
+                1
+              ]
+            },
+            {
+              "tileid": 82,
+              "wangid": [
+                7,
+                7,
+                7,
+                1,
+                7,
+                7,
+                7,
+                7
+              ]
+            },
+            {
+              "tileid": 83,
+              "wangid": [
+                7,
+                7,
+                7,
+                7,
+                7,
+                1,
+                7,
+                7
+              ]
+            },
+            {
+              "tileid": 85,
+              "wangid": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 86,
+              "wangid": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            },
+            {
+              "tileid": 87,
+              "wangid": [
+                2,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2
+              ]
+            },
+            {
+              "tileid": 89,
+              "wangid": [
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            },
+            {
+              "tileid": 90,
+              "wangid": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "tileid": 92,
+              "wangid": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 93,
+              "wangid": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            },
+            {
+              "tileid": 94,
+              "wangid": [
+                3,
+                1,
+                1,
+                1,
+                3,
+                3,
+                3,
+                3
+              ]
+            },
+            {
+              "tileid": 96,
+              "wangid": [
+                3,
+                1,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            },
+            {
+              "tileid": 97,
+              "wangid": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                1
+              ]
+            },
+            {
+              "tileid": 99,
+              "wangid": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 100,
+              "wangid": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            },
+            {
+              "tileid": 101,
+              "wangid": [
+                4,
+                1,
+                1,
+                1,
+                4,
+                4,
+                4,
+                4
+              ]
+            },
+            {
+              "tileid": 103,
+              "wangid": [
+                4,
+                1,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            },
+            {
+              "tileid": 104,
+              "wangid": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                1
+              ]
+            },
+            {
+              "tileid": 106,
+              "wangid": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 107,
+              "wangid": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ]
+            },
+            {
+              "tileid": 108,
+              "wangid": [
+                5,
+                1,
+                1,
+                1,
+                5,
+                5,
+                5,
+                5
+              ]
+            },
+            {
+              "tileid": 110,
+              "wangid": [
+                5,
+                1,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ]
+            },
+            {
+              "tileid": 111,
+              "wangid": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                1
+              ]
+            },
+            {
+              "tileid": 113,
+              "wangid": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 114,
+              "wangid": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+              ]
+            },
+            {
+              "tileid": 115,
+              "wangid": [
+                6,
+                1,
+                1,
+                1,
+                6,
+                6,
+                6,
+                6
+              ]
+            },
+            {
+              "tileid": 117,
+              "wangid": [
+                6,
+                1,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+              ]
+            },
+            {
+              "tileid": 118,
+              "wangid": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                1
+              ]
+            },
+            {
+              "tileid": 120,
+              "wangid": [
+                7,
+                7,
+                7,
+                7,
+                7,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 121,
+              "wangid": [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ]
+            },
+            {
+              "tileid": 122,
+              "wangid": [
+                7,
+                1,
+                1,
+                1,
+                7,
+                7,
+                7,
+                7
+              ]
+            },
+            {
+              "tileid": 124,
+              "wangid": [
+                7,
+                1,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ]
+            },
+            {
+              "tileid": 125,
+              "wangid": [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                1
+              ]
+            },
+            {
+              "tileid": 127,
+              "wangid": [
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 128,
+              "wangid": [
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "tileid": 129,
+              "wangid": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "tileid": 134,
+              "wangid": [
+                3,
+                3,
+                3,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 135,
+              "wangid": [
+                3,
+                3,
+                3,
+                1,
+                1,
+                1,
+                3,
+                3
+              ]
+            },
+            {
+              "tileid": 136,
+              "wangid": [
+                3,
+                1,
+                1,
+                1,
+                1,
+                1,
+                3,
+                3
+              ]
+            },
+            {
+              "tileid": 141,
+              "wangid": [
+                4,
+                4,
+                4,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 142,
+              "wangid": [
+                4,
+                4,
+                4,
+                1,
+                1,
+                1,
+                4,
+                4
+              ]
+            },
+            {
+              "tileid": 143,
+              "wangid": [
+                4,
+                1,
+                1,
+                1,
+                1,
+                1,
+                4,
+                4
+              ]
+            },
+            {
+              "tileid": 148,
+              "wangid": [
+                5,
+                5,
+                5,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 149,
+              "wangid": [
+                5,
+                5,
+                5,
+                1,
+                1,
+                1,
+                5,
+                5
+              ]
+            },
+            {
+              "tileid": 150,
+              "wangid": [
+                5,
+                1,
+                1,
+                1,
+                1,
+                1,
+                5,
+                5
+              ]
+            },
+            {
+              "tileid": 155,
+              "wangid": [
+                6,
+                6,
+                6,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 156,
+              "wangid": [
+                6,
+                6,
+                6,
+                1,
+                1,
+                1,
+                6,
+                6
+              ]
+            },
+            {
+              "tileid": 157,
+              "wangid": [
+                6,
+                1,
+                1,
+                1,
+                1,
+                1,
+                6,
+                6
+              ]
+            },
+            {
+              "tileid": 162,
+              "wangid": [
+                7,
+                7,
+                7,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "tileid": 163,
+              "wangid": [
+                7,
+                7,
+                7,
+                1,
+                1,
+                1,
+                7,
+                7
+              ]
+            },
+            {
+              "tileid": 164,
+              "wangid": [
+                7,
+                1,
+                1,
+                1,
+                1,
+                1,
+                7,
+                7
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "type": "tilelayer",
+      "id": 1,
+      "name": "Floor",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 20,
+      "height": 20,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYBgFowACTgljx+QCZREGBhUR6pmHbs4lIL5MRfOo7T5C5iGrUQOGkzoQn8Fhxg0gvgnEt/CYdx4odwGHfnTMBLSLGYhZREj3DyFMinkwf1PLPBAGheFZNDHktEgv/xKyZzgAAMW5XQM="
+    },
+    {
+      "type": "tilelayer",
+      "id": 2,
+      "name": "Walls",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 20,
+      "height": 20,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYBgeYAMQb8SBN5Fh3lkgPgDEB4H4EBr7/CAx7y4Q3wPi+2hscs3DBbCZhy+8Qfg9iebhCx8Qm4eReuZZQvmkmocrvBOhfFLNIxcMRfNeUWDeGyxi7HjSAyHAiUWvCgXmqWHROwMoNhMHTgLiZDzysyhwC70BAPtMR9E="
+    },
+    {
+      "type": "tilelayer",
+      "id": 3,
+      "name": "Shop Counter",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 20,
+      "height": 20,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYBgFo2Dkgr1AvIdEPd/xyN0C4pskmveFgPw3Es0TZGRgEMKDhRlJM08PqF4fDzYg0bxRMHwAAN1UCGk="
+    },
+    {
+      "type": "objectgroup",
+      "id": 6,
+      "name": "Carpets",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 53,
+          "name": "",
+          "type": "",
+          "x": 205.325,
+          "y": 265.312,
+          "width": 64,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4333
+        },
+        {
+          "id": 61,
+          "name": "",
+          "type": "",
+          "x": 69.5,
+          "y": 269,
+          "width": 64,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4586
+        }
+      ]
+    },
+    {
+      "type": "objectgroup",
+      "id": 4,
+      "name": "Objects",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 1,
+          "name": "",
+          "type": "",
+          "x": 173.333,
+          "y": 107.333,
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4242
+        },
+        {
+          "id": 2,
+          "name": "",
+          "type": "",
+          "x": 196,
+          "y": 116.667,
+          "width": 16,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4580
+        },
+        {
+          "id": 3,
+          "name": "",
+          "type": "",
+          "x": 91,
+          "y": 207.667,
+          "width": 32,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4246
+        },
+        {
+          "id": 6,
+          "name": "",
+          "type": "",
+          "x": 220.659,
+          "y": 272.979,
+          "width": 32,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4244
+        },
+        {
+          "id": 7,
+          "name": "",
+          "type": "",
+          "x": 255.659,
+          "y": 126.312,
+          "width": 16,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4583
+        },
+        {
+          "id": 8,
+          "name": "",
+          "type": "",
+          "x": 243.992,
+          "y": 112.979,
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4348
+        },
+        {
+          "id": 9,
+          "name": "",
+          "type": "",
+          "x": 175,
+          "y": 117.667,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4394
+        },
+        {
+          "id": 10,
+          "name": "",
+          "type": "",
+          "x": 54.667,
+          "y": 270,
+          "width": 64,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4492
+        },
+        {
+          "id": 17,
+          "name": "",
+          "type": "",
+          "x": 205,
+          "y": 116,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4289
+        },
+        {
+          "id": 20,
+          "name": "",
+          "type": "",
+          "x": 173.667,
+          "y": 115,
+          "width": 32,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4290
+        },
+        {
+          "id": 21,
+          "name": "",
+          "type": "",
+          "x": 48,
+          "y": 192,
+          "width": 32,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4423
+        },
+        {
+          "id": 22,
+          "name": "",
+          "type": "",
+          "x": 130,
+          "y": 191.996,
+          "width": 48,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4472
+        },
+        {
+          "id": 23,
+          "name": "",
+          "type": "",
+          "x": 255.992,
+          "y": 159.979,
+          "width": 16,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4453
+        },
+        {
+          "id": 24,
+          "name": "",
+          "type": "",
+          "x": 192,
+          "y": 80,
+          "width": 48,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4489
+        },
+        {
+          "id": 25,
+          "name": "",
+          "type": "",
+          "x": 235.348,
+          "y": 80,
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4484
+        },
+        {
+          "id": 26,
+          "name": "",
+          "type": "",
+          "x": 96,
+          "y": 160,
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4484
+        },
+        {
+          "id": 29,
+          "name": "",
+          "type": "",
+          "x": 114.326,
+          "y": 269.979,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4368
+        },
+        {
+          "id": 30,
+          "name": "",
+          "type": "",
+          "x": 244.659,
+          "y": 270.979,
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4349
+        },
+        {
+          "id": 32,
+          "name": "",
+          "type": "",
+          "x": 256.992,
+          "y": 254.646,
+          "width": 16,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4372
+        },
+        {
+          "id": 33,
+          "name": "",
+          "type": "",
+          "x": 243.992,
+          "y": 175.979,
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4351
+        },
+        {
+          "id": 34,
+          "name": "",
+          "type": "",
+          "x": 246.325,
+          "y": 234.979,
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4416
+        },
+        {
+          "id": 48,
+          "name": "",
+          "type": "",
+          "x": 172.514,
+          "y": 128,
+          "width": 16,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4578
+        },
+        {
+          "id": 52,
+          "name": "",
+          "type": "",
+          "x": 48,
+          "y": 260.333,
+          "width": 16,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4579
+        },
+        {
+          "id": 54,
+          "name": "",
+          "type": "",
+          "x": 96,
+          "y": 188.333,
+          "width": 16,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4580
+        },
+        {
+          "id": 55,
+          "name": "",
+          "type": "",
+          "x": 191,
+          "y": 208.333,
+          "width": 16,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4580
+        },
+        {
+          "id": 63,
+          "name": "",
+          "type": "",
+          "x": 214.5,
+          "y": 112.5,
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4340
+        },
+        {
+          "id": 64,
+          "name": "",
+          "type": "",
+          "x": 59,
+          "y": 239,
+          "width": 32,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4283
+        },
+        {
+          "id": 66,
+          "name": "",
+          "type": "",
+          "x": 76.5455,
+          "y": 159.273,
+          "width": 16,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4599
+        },
+        {
+          "id": 67,
+          "name": "",
+          "type": "",
+          "x": 84.7273,
+          "y": 158.545,
+          "width": 16,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4606
+        },
+        {
+          "id": 68,
+          "name": "",
+          "type": "",
+          "x": 177.455,
+          "y": 77.9091,
+          "width": 16,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4606
+        },
+        {
+          "id": 81,
+          "name": "",
+          "type": "",
+          "x": 175.996,
+          "y": 185.996,
+          "width": 16,
+          "height": 64,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4463
+        },
+        {
+          "id": 83,
+          "name": "",
+          "type": "",
+          "x": 103.5,
+          "y": 253.25,
+          "width": 32,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4288
+        }
+      ]
+    },
+    {
+      "type": "objectgroup",
+      "id": 5,
+      "name": "Objects 2",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 12,
+          "name": "",
+          "type": "",
+          "x": 63,
+          "y": 247,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4388
+        },
+        {
+          "id": 13,
+          "name": "",
+          "type": "",
+          "x": 72.333,
+          "y": 253.333,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4389
+        },
+        {
+          "id": 14,
+          "name": "",
+          "type": "",
+          "x": 97,
+          "y": 245,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4387
+        },
+        {
+          "id": 15,
+          "name": "",
+          "type": "",
+          "x": 76,
+          "y": 252,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4395
+        },
+        {
+          "id": 16,
+          "name": "",
+          "type": "",
+          "x": 93.667,
+          "y": 243.667,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4395
+        },
+        {
+          "id": 27,
+          "name": "",
+          "type": "",
+          "x": 142.333,
+          "y": 203.667,
+          "width": 16,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4343
+        },
+        {
+          "id": 28,
+          "name": "",
+          "type": "",
+          "x": 89,
+          "y": 252,
+          "width": 16,
+          "height": 32,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4343
+        },
+        {
+          "id": 36,
+          "name": "",
+          "type": "",
+          "x": 158.333,
+          "y": 148.333,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4326
+        },
+        {
+          "id": 37,
+          "name": "",
+          "type": "",
+          "x": 147.333,
+          "y": 147.333,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4310
+        },
+        {
+          "id": 38,
+          "name": "",
+          "type": "",
+          "x": 259.325,
+          "y": 182.646,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4310
+        },
+        {
+          "id": 39,
+          "name": "",
+          "type": "",
+          "x": 255.325,
+          "y": 188.312,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4317
+        },
+        {
+          "id": 40,
+          "name": "",
+          "type": "",
+          "x": 72,
+          "y": 192,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4317
+        },
+        {
+          "id": 41,
+          "name": "",
+          "type": "",
+          "x": 117.667,
+          "y": 182.667,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4312
+        },
+        {
+          "id": 42,
+          "name": "",
+          "type": "",
+          "x": 197.667,
+          "y": 176.667,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4314
+        },
+        {
+          "id": 43,
+          "name": "",
+          "type": "",
+          "x": 191.667,
+          "y": 175.667,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4305
+        },
+        {
+          "id": 44,
+          "name": "",
+          "type": "",
+          "x": 196,
+          "y": 185,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4304
+        },
+        {
+          "id": 45,
+          "name": "",
+          "type": "",
+          "x": 58.667,
+          "y": 255,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4310
+        },
+        {
+          "id": 49,
+          "name": "",
+          "type": "",
+          "x": 46,
+          "y": 159,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4323
+        },
+        {
+          "id": 50,
+          "name": "",
+          "type": "",
+          "x": 53,
+          "y": 159,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4324
+        },
+        {
+          "id": 57,
+          "name": "",
+          "type": "",
+          "x": 205,
+          "y": 159.75,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4389
+        },
+        {
+          "id": 59,
+          "name": "",
+          "type": "",
+          "x": 130.5,
+          "y": 206.75,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4388
+        },
+        {
+          "id": 69,
+          "name": "",
+          "type": "",
+          "x": 258.667,
+          "y": 91.6667,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4309
+        },
+        {
+          "id": 71,
+          "name": "",
+          "type": "",
+          "x": 253.667,
+          "y": 95.6667,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4311
+        },
+        {
+          "id": 72,
+          "name": "",
+          "type": "",
+          "x": 260,
+          "y": 129,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4311
+        },
+        {
+          "id": 73,
+          "name": "",
+          "type": "",
+          "x": 259.333,
+          "y": 136,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4607
+        },
+        {
+          "id": 74,
+          "name": "",
+          "type": "",
+          "x": 116,
+          "y": 204.667,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4607
+        },
+        {
+          "id": 75,
+          "name": "",
+          "type": "",
+          "x": 110.333,
+          "y": 207.667,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4317
+        },
+        {
+          "id": 80,
+          "name": "",
+          "type": "",
+          "x": 171.75,
+          "y": 130.5,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4315
+        },
+        {
+          "id": 82,
+          "name": "",
+          "type": "",
+          "x": 174.045,
+          "y": 140.886,
+          "width": 16,
+          "height": 16,
+          "rotation": 0,
+          "visible": true,
+          "gid": 4303
+        }
+      ]
+    }
+  ]
+}

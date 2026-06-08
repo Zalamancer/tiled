@@ -1,11 +1,14 @@
 // Translates a Tiled cell's flip-flags (H, V, antidiagonal) into a PIXI sprite
-// transform — center-anchored rotation + scale + center-offset translation.
-// Mirrors `CellRenderer::render` in libtiled (maprenderer.cpp ~L500-525).
+// transform — centre-anchored rotation + scale + offset relative to the cell's
+// **bottom-left** screen point `(x*tw, (y+1)*th)`. This matches Tiled's
+// orthogonal renderer (`CellRenderer::render` + `Origin::BottomLeft`):
+// tiles render at their natural pixel size, anchored at the cell's bottom-
+// left so larger sprites extend up and to the right.
 
 import type { Cell, Size } from '@tiled-ts/core';
 
 export interface SpriteTransform {
-  /** Centre-of-cell offset to add to (cellPx, cellPy). */
+  /** Centre-of-sprite offset from `(x*tw, (y+1)*th)`. */
   centerX: number;
   centerY: number;
   /** Rotation in radians (positive = clockwise, matching Pixi & Qt). */
@@ -17,15 +20,21 @@ export interface SpriteTransform {
 }
 
 /**
- * Compute the centre-anchored transform for one cell. `cellSize` is the
- * rendered size in pixels (usually `map.tileSize`).
+ * Compute the transform for one cell.
+ *
+ * `tileSize` is the **natural** pixel size of the tile image (i.e. the
+ * tileset's `tileWidth/tileHeight` for image-based tilesets, or the per-tile
+ * imageRect for image-collection tilesets). The returned `(centerX, centerY)`
+ * are offsets from the cell's bottom-left point so the caller can plug them
+ * straight into `sprite.position.set(x*tw + centerX, (y+1)*th + centerY)`.
  */
-export function tileTransformFor(cell: Cell, cellSize: Size): SpriteTransform {
+export function tileTransformFor(cell: Cell, tileSize: Size): SpriteTransform {
   let flippedH = cell.flippedHorizontally();
   let flippedV = cell.flippedVertically();
   let rotation = 0;
-  let centerX = cellSize.width / 2;
-  let centerY = cellSize.height / 2;
+  // Start with bottom-left-anchored centring: sprite centre = (+w/2, -h/2).
+  let centerX = tileSize.width / 2;
+  let centerY = -tileSize.height / 2;
 
   if (cell.flippedAntiDiagonally()) {
     rotation = Math.PI / 2;
@@ -33,7 +42,10 @@ export function tileTransformFor(cell: Cell, cellSize: Size): SpriteTransform {
     const newV = !cell.flippedHorizontally();
     flippedH = newH;
     flippedV = newV;
-    const halfDiff = cellSize.height / 2 - cellSize.width / 2;
+    // After a 90° CW rotation around the centre, a non-square sprite shifts
+    // by `(h-w)/2` along both axes. Mirroring Qt's compensation in
+    // `CellRenderer::render`.
+    const halfDiff = tileSize.height / 2 - tileSize.width / 2;
     centerX += halfDiff;
     centerY += halfDiff;
   }

@@ -1,0 +1,125 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.10.0",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 4,
+  "height": 4,
+  "tilewidth": 24,
+  "tileheight": 24,
+  "infinite": false,
+  "nextlayerid": 1,
+  "nextobjectid": 1,
+  "compressionlevel": -1,
+  "properties": [
+    {
+      "name": "NoOverlappingRules",
+      "type": "string",
+      "value": "1"
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "sewer_tileset",
+      "tilewidth": 24,
+      "tileheight": 24,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 0,
+      "columns": 0,
+      "image": "./demos/tiled__sewer_automap_rule_008_sewer_tileset_.._sewer_tileset.png",
+      "imagewidth": 192,
+      "imageheight": 217,
+      "transparentcolor": "#ff00ff"
+    },
+    {
+      "firstgid": 2,
+      "name": "rules_sewers",
+      "tilewidth": 24,
+      "tileheight": 24,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 0,
+      "columns": 0,
+      "image": "./demos/tiled__sewer_automap_rule_008_rules_sewers_rules_sewers.png",
+      "imagewidth": 72,
+      "imageheight": 48
+    }
+  ],
+  "layers": [
+    {
+      "type": "tilelayer",
+      "id": 0,
+      "name": "regions_input",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 4,
+      "height": 4,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYCAMWKEYGwAAAUQACw=="
+    },
+    {
+      "type": "tilelayer",
+      "id": 0,
+      "name": "regions_output",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 4,
+      "height": 4,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYMAErFjEcAEAARwABg=="
+    },
+    {
+      "type": "tilelayer",
+      "id": 0,
+      "name": "input_Over",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 4,
+      "height": 4,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYCAMWICYF4ccAAHoABI="
+    },
+    {
+      "type": "objectgroup",
+      "id": 0,
+      "name": "output_GroundEffects",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 0,
+          "name": "1",
+          "type": "Effect",
+          "x": 24,
+          "y": 24,
+          "width": 24,
+          "height": 24,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "predefined Value",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

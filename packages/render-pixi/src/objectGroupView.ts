@@ -22,11 +22,15 @@ export class ObjectGroupView extends Container {
   ) {
     super();
     this.label = `ObjectGroupView(${objectGroup.name})`;
-    this.alpha = objectGroup.opacity;
-    this.visible = objectGroup.visible;
+    this.syncLayerState();
+  }
+
+  syncLayerState(): void {
+    this.alpha = this.objectGroup.opacity;
+    this.visible = this.objectGroup.visible;
     this.position.set(
-      objectGroup.x * map.tileWidth + objectGroup.offset.x,
-      objectGroup.y * map.tileHeight + objectGroup.offset.y,
+      this.objectGroup.x * this.map.tileWidth + this.objectGroup.offset.x,
+      this.objectGroup.y * this.map.tileHeight + this.objectGroup.offset.y,
     );
   }
 

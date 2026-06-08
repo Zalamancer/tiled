@@ -1,0 +1,811 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.10.0",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 58,
+  "height": 47,
+  "tilewidth": 16,
+  "tileheight": 16,
+  "infinite": false,
+  "nextlayerid": 5,
+  "nextobjectid": 8,
+  "compressionlevel": -1,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "beach_tileset",
+      "tilewidth": 16,
+      "tileheight": 16,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 33,
+      "columns": 36,
+      "image": "./demos/tiled__rpg_island_beach_tileset_beach_tileset.png",
+      "imagewidth": 576,
+      "imageheight": 416,
+      "tiles": [
+        {
+          "id": 37,
+          "animation": [
+            {
+              "tileid": 37,
+              "duration": 250
+            },
+            {
+              "tileid": 46,
+              "duration": 250
+            },
+            {
+              "tileid": 55,
+              "duration": 250
+            },
+            {
+              "tileid": 64,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "animation": [
+            {
+              "tileid": 38,
+              "duration": 250
+            },
+            {
+              "tileid": 47,
+              "duration": 250
+            },
+            {
+              "tileid": 56,
+              "duration": 250
+            },
+            {
+              "tileid": 65,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "animation": [
+            {
+              "tileid": 39,
+              "duration": 250
+            },
+            {
+              "tileid": 48,
+              "duration": 250
+            },
+            {
+              "tileid": 57,
+              "duration": 250
+            },
+            {
+              "tileid": 66,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "animation": [
+            {
+              "tileid": 41,
+              "duration": 250
+            },
+            {
+              "tileid": 50,
+              "duration": 250
+            },
+            {
+              "tileid": 59,
+              "duration": 250
+            },
+            {
+              "tileid": 68,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "animation": [
+            {
+              "tileid": 42,
+              "duration": 250
+            },
+            {
+              "tileid": 51,
+              "duration": 250
+            },
+            {
+              "tileid": 60,
+              "duration": 250
+            },
+            {
+              "tileid": 69,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "animation": [
+            {
+              "tileid": 43,
+              "duration": 250
+            },
+            {
+              "tileid": 52,
+              "duration": 250
+            },
+            {
+              "tileid": 61,
+              "duration": 250
+            },
+            {
+              "tileid": 70,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "animation": [
+            {
+              "tileid": 73,
+              "duration": 250
+            },
+            {
+              "tileid": 82,
+              "duration": 250
+            },
+            {
+              "tileid": 91,
+              "duration": 250
+            },
+            {
+              "tileid": 100,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "animation": [
+            {
+              "tileid": 75,
+              "duration": 250
+            },
+            {
+              "tileid": 84,
+              "duration": 250
+            },
+            {
+              "tileid": 93,
+              "duration": 250
+            },
+            {
+              "tileid": 102,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "animation": [
+            {
+              "tileid": 76,
+              "duration": 250
+            },
+            {
+              "tileid": 85,
+              "duration": 250
+            },
+            {
+              "tileid": 94,
+              "duration": 250
+            },
+            {
+              "tileid": 103,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "animation": [
+            {
+              "tileid": 77,
+              "duration": 250
+            },
+            {
+              "tileid": 86,
+              "duration": 250
+            },
+            {
+              "tileid": 95,
+              "duration": 250
+            },
+            {
+              "tileid": 104,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 79,
+          "animation": [
+            {
+              "tileid": 79,
+              "duration": 250
+            },
+            {
+              "tileid": 88,
+              "duration": 250
+            },
+            {
+              "tileid": 97,
+              "duration": 250
+            },
+            {
+              "tileid": 106,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 109,
+          "animation": [
+            {
+              "tileid": 109,
+              "duration": 250
+            },
+            {
+              "tileid": 118,
+              "duration": 250
+            },
+            {
+              "tileid": 127,
+              "duration": 250
+            },
+            {
+              "tileid": 136,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 110,
+          "animation": [
+            {
+              "tileid": 110,
+              "duration": 250
+            },
+            {
+              "tileid": 119,
+              "duration": 250
+            },
+            {
+              "tileid": 128,
+              "duration": 250
+            },
+            {
+              "tileid": 137,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 114,
+          "animation": [
+            {
+              "tileid": 114,
+              "duration": 250
+            },
+            {
+              "tileid": 123,
+              "duration": 250
+            },
+            {
+              "tileid": 132,
+              "duration": 250
+            },
+            {
+              "tileid": 141,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 115,
+          "animation": [
+            {
+              "tileid": 115,
+              "duration": 250
+            },
+            {
+              "tileid": 124,
+              "duration": 250
+            },
+            {
+              "tileid": 133,
+              "duration": 250
+            },
+            {
+              "tileid": 142,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 146,
+          "animation": [
+            {
+              "tileid": 146,
+              "duration": 250
+            },
+            {
+              "tileid": 155,
+              "duration": 250
+            },
+            {
+              "tileid": 164,
+              "duration": 250
+            },
+            {
+              "tileid": 173,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 148,
+          "animation": [
+            {
+              "tileid": 148,
+              "duration": 250
+            },
+            {
+              "tileid": 157,
+              "duration": 250
+            },
+            {
+              "tileid": 166,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 150,
+          "animation": [
+            {
+              "tileid": 150,
+              "duration": 250
+            },
+            {
+              "tileid": 159,
+              "duration": 250
+            },
+            {
+              "tileid": 168,
+              "duration": 250
+            },
+            {
+              "tileid": 177,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 181,
+          "animation": [
+            {
+              "tileid": 181,
+              "duration": 250
+            },
+            {
+              "tileid": 190,
+              "duration": 250
+            },
+            {
+              "tileid": 199,
+              "duration": 250
+            },
+            {
+              "tileid": 208,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 182,
+          "animation": [
+            {
+              "tileid": 182,
+              "duration": 250
+            },
+            {
+              "tileid": 191,
+              "duration": 250
+            },
+            {
+              "tileid": 200,
+              "duration": 250
+            },
+            {
+              "tileid": 209,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 186,
+          "animation": [
+            {
+              "tileid": 186,
+              "duration": 250
+            },
+            {
+              "tileid": 195,
+              "duration": 250
+            },
+            {
+              "tileid": 204,
+              "duration": 250
+            },
+            {
+              "tileid": 213,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 187,
+          "animation": [
+            {
+              "tileid": 187,
+              "duration": 250
+            },
+            {
+              "tileid": 196,
+              "duration": 250
+            },
+            {
+              "tileid": 205,
+              "duration": 250
+            },
+            {
+              "tileid": 214,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 217,
+          "animation": [
+            {
+              "tileid": 217,
+              "duration": 250
+            },
+            {
+              "tileid": 226,
+              "duration": 250
+            },
+            {
+              "tileid": 235,
+              "duration": 250
+            },
+            {
+              "tileid": 244,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 219,
+          "animation": [
+            {
+              "tileid": 219,
+              "duration": 250
+            },
+            {
+              "tileid": 228,
+              "duration": 250
+            },
+            {
+              "tileid": 237,
+              "duration": 250
+            },
+            {
+              "tileid": 246,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 220,
+          "animation": [
+            {
+              "tileid": 220,
+              "duration": 250
+            },
+            {
+              "tileid": 229,
+              "duration": 250
+            },
+            {
+              "tileid": 238,
+              "duration": 250
+            },
+            {
+              "tileid": 247,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 221,
+          "animation": [
+            {
+              "tileid": 221,
+              "duration": 250
+            },
+            {
+              "tileid": 230,
+              "duration": 250
+            },
+            {
+              "tileid": 239,
+              "duration": 250
+            },
+            {
+              "tileid": 248,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 223,
+          "animation": [
+            {
+              "tileid": 223,
+              "duration": 250
+            },
+            {
+              "tileid": 232,
+              "duration": 250
+            },
+            {
+              "tileid": 241,
+              "duration": 250
+            },
+            {
+              "tileid": 250,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 253,
+          "animation": [
+            {
+              "tileid": 253,
+              "duration": 250
+            },
+            {
+              "tileid": 262,
+              "duration": 250
+            },
+            {
+              "tileid": 271,
+              "duration": 250
+            },
+            {
+              "tileid": 280,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 254,
+          "animation": [
+            {
+              "tileid": 254,
+              "duration": 250
+            },
+            {
+              "tileid": 263,
+              "duration": 250
+            },
+            {
+              "tileid": 272,
+              "duration": 250
+            },
+            {
+              "tileid": 281,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 255,
+          "animation": [
+            {
+              "tileid": 255,
+              "duration": 250
+            },
+            {
+              "tileid": 264,
+              "duration": 250
+            },
+            {
+              "tileid": 273,
+              "duration": 250
+            },
+            {
+              "tileid": 282,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 257,
+          "animation": [
+            {
+              "tileid": 257,
+              "duration": 250
+            },
+            {
+              "tileid": 266,
+              "duration": 250
+            },
+            {
+              "tileid": 275,
+              "duration": 250
+            },
+            {
+              "tileid": 284,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 258,
+          "animation": [
+            {
+              "tileid": 258,
+              "duration": 250
+            },
+            {
+              "tileid": 267,
+              "duration": 250
+            },
+            {
+              "tileid": 276,
+              "duration": 250
+            },
+            {
+              "tileid": 285,
+              "duration": 250
+            }
+          ]
+        },
+        {
+          "id": 259,
+          "animation": [
+            {
+              "tileid": 259,
+              "duration": 250
+            },
+            {
+              "tileid": 268,
+              "duration": 250
+            },
+            {
+              "tileid": 277,
+              "duration": 250
+            },
+            {
+              "tileid": 286,
+              "duration": 250
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "type": "tilelayer",
+      "id": 1,
+      "name": "Ground",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 58,
+      "height": 47,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJztmGtu00AUhWfCaynlsQtASJVqx7E3wAYaKO06KhWawF5gHSU/eHchcEedo5zcXMdp48ZOmR9HTjxxfD/f53jinJskJSUlJSX95/om+q70owd2tc13IvJ+UWM596YHNrbBCL4z0URURU1F72XtQw/s3ETHkTHwDYmPWe8C50fRJ9E5+a9SugucB6LHoieiGbFdiL76q3O7xMl1VNfPwJoRb9BT0bN4LnzOe8DQJORgU/0Eb0ZcBzvE6Py8zgx7GodW317Vw/n3f91iLc1Fpej5wLmB788MoOPNEseg9XvdL6DTuA7ermYg7mvBrkfig0KOx969DkeIYxA9Ar4L65nq+cxcEG8XM5BmZLveCWdFnIjB8Pw/i76I9uX7KK7z9Vk8V8b1UXweWA/P4HKLOcx+CX7kGeUoclbEYfm0jGs5HUtiyiP3RDGH4yvfbi+p62nwC/o0x99bxVkXu+yniq7PjHwtoy5bZrT2Bog9/Cb0rT131adn0bYR+WLSwGnFLPuM10bx/9tm5L0BbD01WMELVl1Xmjjxe8RsTt85J4tbYtT1pVKsOpY16zqcWAdf7pdjmXO3rbpTV0Pr+pqu7WDdV6xlvGZMuYB7FMShGa37jt3mfZOfM/vCumfdfBb+41Bdy/3lhejlYH6uaLiPzlGwbtI3UUNnMUeCsPfhusqszMnxYNnN3Jmf19ATv9xLUYdKP6+9v0V/Wopf3uth77PnFusqepyuC1Z9afLRKoER8fxA4uDhoL08tfY+Ov+susCzg2bk/t+0VkR/IqakH4fZI8xZYabc2hx06JdnHCu/uV6eExPmWkv8jkDnDnr0tue9UFdQQ4Owh6zLS13fNNNFzINV7w3w/bb31bpPooZyHbXiEXk2JEbkvmV/3XsDnUubSO+bV80/Q784j2f0OVc+Q97puaFt+9eRtQ9eZ/6Brzgvtc8457p+L8L5N/XL+1xr/gFr8OtP0S+jXlj9qst3V7wP5jo5NWzXrCEm70mO3h/YfaeuX/WFFarbLzAr94KufXad+EVdabK7b3G5rm5id9/i8jqsu2h3UlJSUlI3+gfDF5xH"
+    },
+    {
+      "type": "tilelayer",
+      "id": 2,
+      "name": "Fringe",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 58,
+      "height": 47,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJztmEtSwkAURUPYiA4sSh0o7sJCdCD+F4ETlY+fdajgdx2CshZ1HZ4UZKQpSk26qx/3VJ1JBvS7eV39OkSREEIIIYQImaXYdwVu2TCat0Ku25LfGhqsv4O7Bdcx9Jyzxfpt7Hiuo2h65OvjnfGcr+R7w5HxnO/k+8BP4zlTFnM465sBzIvtST+tz/JN8m0Zz5jHnrXOesY7snq3mytH0TweO8xXM/ouU+qx3/Ny2cHayewqcp0zfnsFV7GKaxlrhTSXFsq+K3DLCb05jce9bP2jT3vcQfbxAA/xyOMdM5kPWWdlm+cd7P4xa5dc53iBl3gV+F36mvpvfshwz7MHfMQnfPaYM2sW/Wa/vlD/IIBepd8b9YDOTPGdad+NLua/EAmVGdhrIfxPI4QQQoh8+QKR0iKM"
+    },
+    {
+      "type": "tilelayer",
+      "id": 3,
+      "name": "Over",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 58,
+      "height": 47,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJzt1bcNwlAURuFnU5KWAPYhzwGMQlqE3JJWINktaQVAHInGIDdIIOvB/0mnsEVxr56NjRERERERERERERvsHGM88p2oJ/ky1xiHXOpRnwZu1EN9XoadspSjFa1pY9GeNWatU+ONmS/89ko3C/ZsMmOL2tSh7svMU97DGc1pQUtL38she41oTJOQc9mz14GOdKKzpXtu2W1HHvkvexa5jlOCkpSitAXPaNDT9yHGf2gs6om+JPB9CMpzXXAfZ1my7OzCBL8PYcrcr1D1B3b9d7/wvIqIiIiIiIiEuQPCYiRe"
+    },
+    {
+      "type": "objectgroup",
+      "id": 4,
+      "name": "Objects",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 1,
+          "name": "Starting Point",
+          "type": "start",
+          "x": 794.667,
+          "y": 471.667,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 5,
+          "name": "Exit",
+          "type": "exit",
+          "x": 336,
+          "y": 208,
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "visible": true
+        },
+        {
+          "id": 7,
+          "name": "Resting Spot",
+          "type": "rest",
+          "x": 528,
+          "y": 416,
+          "width": 48,
+          "height": 16,
+          "rotation": 0,
+          "visible": true
+        }
+      ]
+    }
+  ]
+}

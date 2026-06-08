@@ -1,0 +1,102 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.10.0",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 7,
+  "height": 6,
+  "tilewidth": 24,
+  "tileheight": 24,
+  "infinite": false,
+  "nextlayerid": 1,
+  "nextobjectid": 1,
+  "compressionlevel": -1,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "sewer_tileset",
+      "tilewidth": 24,
+      "tileheight": 24,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 0,
+      "columns": 0,
+      "image": "./demos/tiled__sewer_automap_rule_004_sewer_tileset_.._sewer_tileset.png",
+      "imagewidth": 192,
+      "imageheight": 217,
+      "transparentcolor": "#ff00ff"
+    },
+    {
+      "firstgid": 2,
+      "name": "rules_sewers",
+      "tilewidth": 24,
+      "tileheight": 24,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 0,
+      "columns": 0,
+      "image": "./demos/tiled__sewer_automap_rule_004_rules_sewers_rules_sewers.png",
+      "imagewidth": 72,
+      "imageheight": 48
+    }
+  ],
+  "layers": [
+    {
+      "type": "tilelayer",
+      "id": 0,
+      "name": "Regions",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 7,
+      "height": 6,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYMAPWKEYnU0rOVwAABuIAFE="
+    },
+    {
+      "type": "tilelayer",
+      "id": 0,
+      "name": "Input_set",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 7,
+      "height": 6,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYMAPmKAYnU2pHLodhAAACrgAHQ=="
+    },
+    {
+      "type": "tilelayer",
+      "id": 0,
+      "name": "Output_Ground",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 7,
+      "height": 6,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYMAPePHI8aHxeYiUIwcAABkoAEI="
+    },
+    {
+      "type": "tilelayer",
+      "id": 0,
+      "name": "Output_Over",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 7,
+      "height": 6,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjYMAPOND47ATU0woAAAgwABA="
+    }
+  ]
+}

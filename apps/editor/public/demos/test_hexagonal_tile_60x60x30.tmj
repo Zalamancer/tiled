@@ -1,0 +1,49 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.10.0",
+  "orientation": "hexagonal",
+  "renderorder": "right-down",
+  "width": 20,
+  "height": 20,
+  "tilewidth": 60,
+  "tileheight": 60,
+  "infinite": false,
+  "nextlayerid": 1,
+  "nextobjectid": 1,
+  "compressionlevel": -1,
+  "staggeraxis": "x",
+  "staggerindex": "odd",
+  "hexsidelength": 30,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "test_hexagonal_tile_60x60x30",
+      "tilewidth": 60,
+      "tileheight": 60,
+      "spacing": 0,
+      "margin": 0,
+      "tilecount": 0,
+      "columns": 1,
+      "image": "./demos/test_hexagonal_tile_60x60x30_test_hexagonal_tile_60x60x30.png",
+      "imagewidth": 60,
+      "imageheight": 60
+    }
+  ],
+  "layers": [
+    {
+      "type": "tilelayer",
+      "id": 0,
+      "name": "Tile Layer 1",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "width": 20,
+      "height": 20,
+      "encoding": "base64",
+      "compression": "zlib",
+      "data": "eJxjZGBgYGRgUABiASA+AMQPgPgCEA9LAPRXAxAvAOIJQOwAxAlAHAASH2i3jYJRMApGwVACAP6oBc8="
+    }
+  ]
+}
